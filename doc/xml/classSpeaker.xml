@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classSpeaker" kind="class" language="C++" prot="public">
+    <compoundname>Speaker</compoundname>
+    <includes refid="Speaker_8hpp" local="yes">Speaker.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSpeaker_1a4eb9f5f4ee3c66eb7213a4de3fc9eb8e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Speaker::notes[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>notes</name>
+        <initializer>= {100, 200, 400}</initializer>
+        <briefdescription>
+<para>Stores required notes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Speaker.hpp" line="16" column="13" bodyfile="Speaker.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSpeaker_1ac719255781079bf0c989bb0866518c46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Speaker::play_note</definition>
+        <argsstring>(int frequency)</argsstring>
+        <name>play_note</name>
+        <param>
+          <type>int</type>
+          <declname>frequency</declname>
+        </param>
+        <briefdescription>
+<para>Plays note frequency. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Speaker.hpp" line="23" column="14" bodyfile="Speaker.hpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSpeaker_1a21032c15dbebf7da3f07869793bce16e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Speaker::start_alarm</definition>
+        <argsstring>()</argsstring>
+        <name>start_alarm</name>
+        <briefdescription>
+<para>Starts the alarm. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Speaker.hpp" line="35" column="14" bodyfile="Speaker.hpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classSpeaker_1a67aa99125eff7ecc1b7d42bc155b61dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Speaker::stop_alarm</definition>
+        <argsstring>()</argsstring>
+        <name>stop_alarm</name>
+        <briefdescription>
+<para>Stops the alarm. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Speaker.hpp" line="45" column="14" bodyfile="Speaker.hpp" bodystart="45" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Speaker class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Speaker</label>
+        <link refid="classSpeaker"/>
+      </node>
+    </collaborationgraph>
+    <location file="Speaker.hpp" line="9" column="1" bodyfile="Speaker.hpp" bodystart="10" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classSpeaker_1a4eb9f5f4ee3c66eb7213a4de3fc9eb8e" prot="private" virt="non-virtual"><scope>Speaker</scope><name>notes</name></member>
+      <member refid="classSpeaker_1ac719255781079bf0c989bb0866518c46" prot="private" virt="non-virtual"><scope>Speaker</scope><name>play_note</name></member>
+      <member refid="classSpeaker_1a21032c15dbebf7da3f07869793bce16e" prot="public" virt="non-virtual"><scope>Speaker</scope><name>start_alarm</name></member>
+      <member refid="classSpeaker_1a67aa99125eff7ecc1b7d42bc155b61dc" prot="public" virt="non-virtual"><scope>Speaker</scope><name>stop_alarm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

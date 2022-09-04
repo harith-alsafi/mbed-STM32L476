@@ -1,0 +1,348 @@
+\hypertarget{classMainPage}{}\doxysection{Main\+Page Class Reference}
+\label{classMainPage}\index{MainPage@{MainPage}}
+
+
+Main Page class.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Main\+Page.\+hpp\char`\"{}}
+
+
+
+Collaboration diagram for Main\+Page\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classMainPage__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMainPage_a1b6d169c5298d294176ad110da0135da}{show\+\_\+page}} ()
+\begin{DoxyCompactList}\small\item\em Shows the page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainPage_a1f3d4412334a67c58410a8a1e9b69ffb}{show\+\_\+change\+\_\+time\+\_\+options}} (int choice)
+\begin{DoxyCompactList}\small\item\em Shows change time/date options. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMainPage_aa9f15a590b2699508231092e8395fe73}{show\+\_\+change\+\_\+date}} (int choice, int preva, int prevb)
+\begin{DoxyCompactList}\small\item\em Shows change date option. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMainPage_a0bf52aab50157e604cf77130e796d449}{show\+\_\+change\+\_\+time}} (int choice, int prev)
+\begin{DoxyCompactList}\small\item\em Shows change time option. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainPage_aec1ada6666869ce9b43390cf7a50ed6f}{select\+\_\+change\+\_\+time}} ()
+\begin{DoxyCompactList}\small\item\em Selects which change date/time option. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMainPage_a804eb3c90a6c114dde3c678491648865}{show\+\_\+change\+\_\+flags}} (int choice, bool preva, bool prevb)
+\begin{DoxyCompactList}\small\item\em Shows change flags option. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainPage_a22828aeb0158a90d95646ce61b6a57d2}{select\+\_\+change\+\_\+flags}} ()
+\begin{DoxyCompactList}\small\item\em Shows select change flags. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classMainPage_a226c664969cc4869354daab1aee2a992}{show\+\_\+settings}} (int choice, float prev)
+\begin{DoxyCompactList}\small\item\em SHows change settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainPage_a454f25059ee6f5d927fca75a00aaf851}{select\+\_\+settings}} ()
+\begin{DoxyCompactList}\small\item\em Shows select settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainPage_a96475a23c897bd3d54a05dd9c762c1da}{show\+\_\+edit\+\_\+peripherals}} (int choice)
+\begin{DoxyCompactList}\small\item\em Shows edit peripheral options. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainPage_a4b5c4db2016188ae20faefcc0dbc00c2}{show\+\_\+adjust\+\_\+peripherals}} (std\+::vector$<$ bool $>$ \&choice, std\+::vector$<$ bool $>$ \&periph, int type)
+\begin{DoxyCompactList}\small\item\em Shows adjusting peripherals. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainPage_acf8335a73d9cfb2403bdba5a397d1efa}{select\+\_\+edit\+\_\+peripherals}} ()
+\begin{DoxyCompactList}\small\item\em Shows select edit peripherals. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classMainPage_a5e59e082c5657471fcb71b01dc4df015}{convert\+\_\+int}} (int a)
+\begin{DoxyCompactList}\small\item\em Converts int to spaced string. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classMainPage_aaa801677d1db9ac742ed5b7ab1c048a5}{get\+\_\+number\+\_\+of\+\_\+days}} (int month, int year)
+\begin{DoxyCompactList}\small\item\em Will return total number of days. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main Page class. 
+
+Definition at line 8 of file Main\+Page.\+hpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMainPage_a5e59e082c5657471fcb71b01dc4df015}\label{classMainPage_a5e59e082c5657471fcb71b01dc4df015}} 
+\index{MainPage@{MainPage}!convert\_int@{convert\_int}}
+\index{convert\_int@{convert\_int}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{convert\_int()}{convert\_int()}}
+{\footnotesize\ttfamily std\+::string Main\+Page\+::convert\+\_\+int (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Converts int to spaced string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 17 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_aaa801677d1db9ac742ed5b7ab1c048a5}\label{classMainPage_aaa801677d1db9ac742ed5b7ab1c048a5}} 
+\index{MainPage@{MainPage}!get\_number\_of\_days@{get\_number\_of\_days}}
+\index{get\_number\_of\_days@{get\_number\_of\_days}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{get\_number\_of\_days()}{get\_number\_of\_days()}}
+{\footnotesize\ttfamily float Main\+Page\+::get\+\_\+number\+\_\+of\+\_\+days (\begin{DoxyParamCaption}\item[{int}]{month,  }\item[{int}]{year }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Will return total number of days. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em month} & \\
+\hline
+{\em year} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+
+
+Definition at line 35 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a22828aeb0158a90d95646ce61b6a57d2}\label{classMainPage_a22828aeb0158a90d95646ce61b6a57d2}} 
+\index{MainPage@{MainPage}!select\_change\_flags@{select\_change\_flags}}
+\index{select\_change\_flags@{select\_change\_flags}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{select\_change\_flags()}{select\_change\_flags()}}
+{\footnotesize\ttfamily void Main\+Page\+::select\+\_\+change\+\_\+flags (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows select change flags. 
+
+
+
+Definition at line 299 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_aec1ada6666869ce9b43390cf7a50ed6f}\label{classMainPage_aec1ada6666869ce9b43390cf7a50ed6f}} 
+\index{MainPage@{MainPage}!select\_change\_time@{select\_change\_time}}
+\index{select\_change\_time@{select\_change\_time}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{select\_change\_time()}{select\_change\_time()}}
+{\footnotesize\ttfamily void Main\+Page\+::select\+\_\+change\+\_\+time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Selects which change date/time option. 
+
+
+
+Definition at line 189 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_acf8335a73d9cfb2403bdba5a397d1efa}\label{classMainPage_acf8335a73d9cfb2403bdba5a397d1efa}} 
+\index{MainPage@{MainPage}!select\_edit\_peripherals@{select\_edit\_peripherals}}
+\index{select\_edit\_peripherals@{select\_edit\_peripherals}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{select\_edit\_peripherals()}{select\_edit\_peripherals()}}
+{\footnotesize\ttfamily void Main\+Page\+::select\+\_\+edit\+\_\+peripherals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows select edit peripherals. 
+
+
+
+Definition at line 458 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a454f25059ee6f5d927fca75a00aaf851}\label{classMainPage_a454f25059ee6f5d927fca75a00aaf851}} 
+\index{MainPage@{MainPage}!select\_settings@{select\_settings}}
+\index{select\_settings@{select\_settings}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{select\_settings()}{select\_settings()}}
+{\footnotesize\ttfamily void Main\+Page\+::select\+\_\+settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows select settings. 
+
+
+
+Definition at line 350 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a4b5c4db2016188ae20faefcc0dbc00c2}\label{classMainPage_a4b5c4db2016188ae20faefcc0dbc00c2}} 
+\index{MainPage@{MainPage}!show\_adjust\_peripherals@{show\_adjust\_peripherals}}
+\index{show\_adjust\_peripherals@{show\_adjust\_peripherals}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_adjust\_peripherals()}{show\_adjust\_peripherals()}}
+{\footnotesize\ttfamily void Main\+Page\+::show\+\_\+adjust\+\_\+peripherals (\begin{DoxyParamCaption}\item[{std\+::vector$<$ bool $>$ \&}]{choice,  }\item[{std\+::vector$<$ bool $>$ \&}]{periph,  }\item[{int}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows adjusting peripherals. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & \\
+\hline
+{\em periph} & \\
+\hline
+{\em type} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 395 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_aa9f15a590b2699508231092e8395fe73}\label{classMainPage_aa9f15a590b2699508231092e8395fe73}} 
+\index{MainPage@{MainPage}!show\_change\_date@{show\_change\_date}}
+\index{show\_change\_date@{show\_change\_date}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_change\_date()}{show\_change\_date()}}
+{\footnotesize\ttfamily int Main\+Page\+::show\+\_\+change\+\_\+date (\begin{DoxyParamCaption}\item[{int}]{choice,  }\item[{int}]{preva,  }\item[{int}]{prevb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows change date option. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & \\
+\hline
+{\em preva} & \\
+\hline
+{\em prevb} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 118 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a804eb3c90a6c114dde3c678491648865}\label{classMainPage_a804eb3c90a6c114dde3c678491648865}} 
+\index{MainPage@{MainPage}!show\_change\_flags@{show\_change\_flags}}
+\index{show\_change\_flags@{show\_change\_flags}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_change\_flags()}{show\_change\_flags()}}
+{\footnotesize\ttfamily bool Main\+Page\+::show\+\_\+change\+\_\+flags (\begin{DoxyParamCaption}\item[{int}]{choice,  }\item[{bool}]{preva,  }\item[{bool}]{prevb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows change flags option. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & \\
+\hline
+{\em preva} & \\
+\hline
+{\em prevb} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 203 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a0bf52aab50157e604cf77130e796d449}\label{classMainPage_a0bf52aab50157e604cf77130e796d449}} 
+\index{MainPage@{MainPage}!show\_change\_time@{show\_change\_time}}
+\index{show\_change\_time@{show\_change\_time}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_change\_time()}{show\_change\_time()}}
+{\footnotesize\ttfamily int Main\+Page\+::show\+\_\+change\+\_\+time (\begin{DoxyParamCaption}\item[{int}]{choice,  }\item[{int}]{prev }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows change time option. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & \\
+\hline
+{\em prev} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 163 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a1f3d4412334a67c58410a8a1e9b69ffb}\label{classMainPage_a1f3d4412334a67c58410a8a1e9b69ffb}} 
+\index{MainPage@{MainPage}!show\_change\_time\_options@{show\_change\_time\_options}}
+\index{show\_change\_time\_options@{show\_change\_time\_options}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_change\_time\_options()}{show\_change\_time\_options()}}
+{\footnotesize\ttfamily void Main\+Page\+::show\+\_\+change\+\_\+time\+\_\+options (\begin{DoxyParamCaption}\item[{int}]{choice }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows change time/date options. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a96475a23c897bd3d54a05dd9c762c1da}\label{classMainPage_a96475a23c897bd3d54a05dd9c762c1da}} 
+\index{MainPage@{MainPage}!show\_edit\_peripherals@{show\_edit\_peripherals}}
+\index{show\_edit\_peripherals@{show\_edit\_peripherals}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_edit\_peripherals()}{show\_edit\_peripherals()}}
+{\footnotesize\ttfamily void Main\+Page\+::show\+\_\+edit\+\_\+peripherals (\begin{DoxyParamCaption}\item[{int}]{choice }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows edit peripheral options. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 360 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a1b6d169c5298d294176ad110da0135da}\label{classMainPage_a1b6d169c5298d294176ad110da0135da}} 
+\index{MainPage@{MainPage}!show\_page@{show\_page}}
+\index{show\_page@{show\_page}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_page()}{show\_page()}}
+{\footnotesize\ttfamily void Main\+Page\+::show\+\_\+page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows the page. 
+
+
+
+Definition at line 59 of file Main\+Page.\+hpp.
+
+\mbox{\Hypertarget{classMainPage_a226c664969cc4869354daab1aee2a992}\label{classMainPage_a226c664969cc4869354daab1aee2a992}} 
+\index{MainPage@{MainPage}!show\_settings@{show\_settings}}
+\index{show\_settings@{show\_settings}!MainPage@{MainPage}}
+\doxysubsubsection{\texorpdfstring{show\_settings()}{show\_settings()}}
+{\footnotesize\ttfamily float Main\+Page\+::show\+\_\+settings (\begin{DoxyParamCaption}\item[{int}]{choice,  }\item[{float}]{prev }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+SHows change settings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & \\
+\hline
+{\em prev} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+
+
+Definition at line 311 of file Main\+Page.\+hpp.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{MainPage_8hpp}{Main\+Page.\+hpp}}\end{DoxyCompactItemize}

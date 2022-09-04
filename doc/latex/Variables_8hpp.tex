@@ -1,0 +1,709 @@
+\hypertarget{Variables_8hpp}{}\doxysection{Variables.\+hpp File Reference}
+\label{Variables_8hpp}\index{Variables.hpp@{Variables.hpp}}
+{\ttfamily \#include \char`\"{}mbed.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Joystick.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}N5110.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$cstdio$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for Variables.\+hpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Variables_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{Variables_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_aecd69d9a67487cc45c38eb184c50538a}{SP}}~1
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_ab833b755eb010c020fb1098e8f5ecdd6}{LEN}}(arr)~((int) (sizeof (arr) / sizeof (arr)\mbox{[}0\mbox{]}))
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_aef72fe86b7c60b1a86920496456edeac}{WAIT}}~200ms
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_aed8ea54a2630aaf2ae3f2bd5fa886959}{MAX\+\_\+\+TEMP}}~(float) 35.\+0
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_a2522d2568f63855838c3ecfb44084710}{MIN\+\_\+\+TEMP}}~(float) 5.\+0
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_a1c04f26ac948092ee084b2bab93c170d}{N\+\_\+\+LIGHTS}}~3
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_a4442a29ba7f1b1e5a46983bd29723551}{N\+\_\+\+DEVICES}}~2
+\item 
+\#define \mbox{\hyperlink{Variables_8hpp_a02abcba8d46152f589c1252598d8eac7}{N\+\_\+\+APPLIANCES}}~3
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8}{State}} \{ \mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a8f280224da64e98f2d52d50ec43bc197}{HOME}}
+, \mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a41c6eb506ccf657cc7e958c8e8c769cd}{MAIN}}
+, \mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8ae4634ae4352b512b38c5da9dc1610ca6}{STANDBY}}
+, \mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a1f086547f14eb82024dea582d0424ab1}{SECURITY}}
+ \}
+\begin{DoxyCompactList}\small\item\em pages states \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99}{Options}} \{ \mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99a281d86a94f0f25544e272dbcdfe92c71}{CHANGE\+\_\+\+TIME}}
+, \mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99af6f5c3b541594965177862ce4c00c618}{CHANGE\+\_\+\+FLAG}}
+, \mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99ac678338caea29d77d56be2ea56325610}{SETTINGS}}
+, \mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99a24fbe0fa49f3d0553c71b0f666c186e2}{EDIT\+\_\+\+PERIPHERALS}}
+ \}
+\begin{DoxyCompactList}\small\item\em Main\+Page options. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Serial \mbox{\hyperlink{Variables_8hpp_a789e43fa83965995163a12fbf031f6c8}{pc}} (USBTX, USBRX)
+\begin{DoxyCompactList}\small\item\em Used to print on screen. \end{DoxyCompactList}\item 
+Joystick \mbox{\hyperlink{Variables_8hpp_af39cb80f5baf6dfca31bd7f16f68d53d}{joystick}} (PC\+\_\+3, PC\+\_\+2)
+\begin{DoxyCompactList}\small\item\em Joystick object. \end{DoxyCompactList}\item 
+N5110 \mbox{\hyperlink{Variables_8hpp_a5ef82a440147f8a4c9b4f244bd814579}{lcd}} (PC\+\_\+7, PA\+\_\+9, PB\+\_\+10, PB\+\_\+5, PB\+\_\+3, PA\+\_\+10)
+\begin{DoxyCompactList}\small\item\em LCD Object. \end{DoxyCompactList}\item 
+Digital\+In \mbox{\hyperlink{Variables_8hpp_afd444b9c6672a0255eb9a4cd2f282abc}{right\+\_\+button}} (PC\+\_\+10)
+\begin{DoxyCompactList}\small\item\em Right button. \end{DoxyCompactList}\item 
+Digital\+In \mbox{\hyperlink{Variables_8hpp_aee8b3dce7acf28b2c8bd5120a3c9c8fd}{left\+\_\+button}} (PC\+\_\+12)
+\begin{DoxyCompactList}\small\item\em Left button. \end{DoxyCompactList}\item 
+Digital\+In \mbox{\hyperlink{Variables_8hpp_a340807570a2f28069d493b7c34a886bc}{main\+\_\+button}} (PC\+\_\+11)
+\begin{DoxyCompactList}\small\item\em Main button. \end{DoxyCompactList}\item 
+Analog\+In \mbox{\hyperlink{Variables_8hpp_a76e1a7c4383670c2ffcbae77135d46c5}{pot}} (PC\+\_\+0)
+\begin{DoxyCompactList}\small\item\em Potentiometer. \end{DoxyCompactList}\item 
+Analog\+In \mbox{\hyperlink{Variables_8hpp_a743ec82ffa6d9407472964fc15275d0a}{ldr\+\_\+sensor}} (PA\+\_\+1)
+\begin{DoxyCompactList}\small\item\em LDR sensor. \end{DoxyCompactList}\item 
+Analog\+In \mbox{\hyperlink{Variables_8hpp_a142e6caa413f36c9cf1e51b455f23a02}{tmp\+\_\+sensor}} (PA\+\_\+0)
+\begin{DoxyCompactList}\small\item\em Tempreature sensor. \end{DoxyCompactList}\item 
+Analog\+In \mbox{\hyperlink{Variables_8hpp_a975a4c7b9a96dc00481652f3971b3e92}{fsr\+\_\+sensor}} (PA\+\_\+4)
+\begin{DoxyCompactList}\small\item\em FSR. \end{DoxyCompactList}\item 
+Pwm\+Out \mbox{\hyperlink{Variables_8hpp_a485b2a5d4f67110046d89ae1d6d37a16}{buzzer}} (PA\+\_\+15)
+\begin{DoxyCompactList}\small\item\em Buzzer. \end{DoxyCompactList}\item 
+Bus\+Out \mbox{\hyperlink{Variables_8hpp_ac92d91673f4bc6d1d7731cf2f832de32}{devices\+\_\+out}} (PA\+\_\+12, PA\+\_\+11)
+\begin{DoxyCompactList}\small\item\em Output devices. \end{DoxyCompactList}\item 
+Bus\+Out \mbox{\hyperlink{Variables_8hpp_a567c82946ed50c06ec15d7436377d0c0}{appliances\+\_\+out}} (PB\+\_\+15, PB\+\_\+14, PB\+\_\+13)
+\begin{DoxyCompactList}\small\item\em Output appliances. \end{DoxyCompactList}\item 
+Pwm\+Out \mbox{\hyperlink{Variables_8hpp_af654bed7ea3fdeab141248ad96749ee4}{ac\+\_\+out}} (PC\+\_\+9)
+\begin{DoxyCompactList}\small\item\em AC. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+Pwm\+Out \mbox{\hyperlink{Variables_8hpp_a75e3e4e9412bd7c5108568da754aa590}{lights\+\_\+out}} \mbox{[}\mbox{\hyperlink{Variables_8hpp_a1c04f26ac948092ee084b2bab93c170d}{N\+\_\+\+LIGHTS}}\mbox{]} = \{Pwm\+Out(PC\+\_\+8), Pwm\+Out(PC\+\_\+6), Pwm\+Out(PB\+\_\+8)\}
+\begin{DoxyCompactList}\small\item\em Output lights. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_a985791a123b40eb274d204fd592d8583}{right\+\_\+arrow}} \mbox{[}7\mbox{]}\mbox{[}8\mbox{]}
+\begin{DoxyCompactList}\small\item\em Right arrow icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_a6d7aee2144ebb0bb511195358ddbc8d6}{home\+\_\+icon}} \mbox{[}7\mbox{]}\mbox{[}7\mbox{]}
+\begin{DoxyCompactList}\small\item\em Home icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_a2032625d696dd5c944e274809291e751}{light\+\_\+icon}} \mbox{[}7\mbox{]}\mbox{[}9\mbox{]}
+\begin{DoxyCompactList}\small\item\em Light bulb icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_a399b34e6b854cb173de807e033bea79f}{ac\+\_\+icon}} \mbox{[}7\mbox{]}\mbox{[}11\mbox{]}
+\begin{DoxyCompactList}\small\item\em AC icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_a8b829000dd225c37daa1429554d94bb5}{false\+\_\+icon}} \mbox{[}7\mbox{]}\mbox{[}7\mbox{]}
+\begin{DoxyCompactList}\small\item\em False icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_ad32d0c34b97a427ee1c29ea817976fb8}{correct\+\_\+icon}} \mbox{[}7\mbox{]}\mbox{[}9\mbox{]}
+\begin{DoxyCompactList}\small\item\em Correct icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_aec38c4fb4bb5107a26d3ce216a2cf561}{lock\+\_\+icon}} \mbox{[}7\mbox{]}\mbox{[}10\mbox{]}
+\begin{DoxyCompactList}\small\item\em Lock icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_a744470c6f0debe5ddae75ae319a83149}{left\+\_\+arrow}} \mbox{[}7\mbox{]}\mbox{[}8\mbox{]}
+\begin{DoxyCompactList}\small\item\em Left arrow icon. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{Variables_8hpp_a32a70ce946db008918ae708968de72c5}{main\+\_\+icon}} \mbox{[}7\mbox{]}\mbox{[}7\mbox{]}
+\begin{DoxyCompactList}\small\item\em Main\+Page icon. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{Variables_8hpp_ab833b755eb010c020fb1098e8f5ecdd6}\label{Variables_8hpp_ab833b755eb010c020fb1098e8f5ecdd6}} 
+\index{Variables.hpp@{Variables.hpp}!LEN@{LEN}}
+\index{LEN@{LEN}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{LEN}{LEN}}
+{\footnotesize\ttfamily \#define LEN(\begin{DoxyParamCaption}\item[{}]{arr }\end{DoxyParamCaption})~((int) (sizeof (arr) / sizeof (arr)\mbox{[}0\mbox{]}))}
+
+
+
+Definition at line 13 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_aed8ea54a2630aaf2ae3f2bd5fa886959}\label{Variables_8hpp_aed8ea54a2630aaf2ae3f2bd5fa886959}} 
+\index{Variables.hpp@{Variables.hpp}!MAX\_TEMP@{MAX\_TEMP}}
+\index{MAX\_TEMP@{MAX\_TEMP}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{MAX\_TEMP}{MAX\_TEMP}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+TEMP~(float) 35.\+0}
+
+
+
+Definition at line 15 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a2522d2568f63855838c3ecfb44084710}\label{Variables_8hpp_a2522d2568f63855838c3ecfb44084710}} 
+\index{Variables.hpp@{Variables.hpp}!MIN\_TEMP@{MIN\_TEMP}}
+\index{MIN\_TEMP@{MIN\_TEMP}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{MIN\_TEMP}{MIN\_TEMP}}
+{\footnotesize\ttfamily \#define MIN\+\_\+\+TEMP~(float) 5.\+0}
+
+
+
+Definition at line 16 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a02abcba8d46152f589c1252598d8eac7}\label{Variables_8hpp_a02abcba8d46152f589c1252598d8eac7}} 
+\index{Variables.hpp@{Variables.hpp}!N\_APPLIANCES@{N\_APPLIANCES}}
+\index{N\_APPLIANCES@{N\_APPLIANCES}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{N\_APPLIANCES}{N\_APPLIANCES}}
+{\footnotesize\ttfamily \#define N\+\_\+\+APPLIANCES~3}
+
+
+
+Definition at line 19 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a4442a29ba7f1b1e5a46983bd29723551}\label{Variables_8hpp_a4442a29ba7f1b1e5a46983bd29723551}} 
+\index{Variables.hpp@{Variables.hpp}!N\_DEVICES@{N\_DEVICES}}
+\index{N\_DEVICES@{N\_DEVICES}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{N\_DEVICES}{N\_DEVICES}}
+{\footnotesize\ttfamily \#define N\+\_\+\+DEVICES~2}
+
+
+
+Definition at line 18 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a1c04f26ac948092ee084b2bab93c170d}\label{Variables_8hpp_a1c04f26ac948092ee084b2bab93c170d}} 
+\index{Variables.hpp@{Variables.hpp}!N\_LIGHTS@{N\_LIGHTS}}
+\index{N\_LIGHTS@{N\_LIGHTS}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{N\_LIGHTS}{N\_LIGHTS}}
+{\footnotesize\ttfamily \#define N\+\_\+\+LIGHTS~3}
+
+
+
+Definition at line 17 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_aecd69d9a67487cc45c38eb184c50538a}\label{Variables_8hpp_aecd69d9a67487cc45c38eb184c50538a}} 
+\index{Variables.hpp@{Variables.hpp}!SP@{SP}}
+\index{SP@{SP}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{SP}{SP}}
+{\footnotesize\ttfamily \#define SP~1}
+
+
+
+Definition at line 12 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_aef72fe86b7c60b1a86920496456edeac}\label{Variables_8hpp_aef72fe86b7c60b1a86920496456edeac}} 
+\index{Variables.hpp@{Variables.hpp}!WAIT@{WAIT}}
+\index{WAIT@{WAIT}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{WAIT}{WAIT}}
+{\footnotesize\ttfamily \#define WAIT~200ms}
+
+
+
+Definition at line 14 of file Variables.\+hpp.
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99}\label{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99}} 
+\index{Variables.hpp@{Variables.hpp}!Options@{Options}}
+\index{Options@{Options}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{Options}{Options}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99}{Options}}}
+
+
+
+Main\+Page options. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CHANGE\_TIME@{CHANGE\_TIME}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!CHANGE\_TIME@{CHANGE\_TIME}}}\mbox{\Hypertarget{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99a281d86a94f0f25544e272dbcdfe92c71}\label{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99a281d86a94f0f25544e272dbcdfe92c71}} 
+CHANGE\+\_\+\+TIME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CHANGE\_FLAG@{CHANGE\_FLAG}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!CHANGE\_FLAG@{CHANGE\_FLAG}}}\mbox{\Hypertarget{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99af6f5c3b541594965177862ce4c00c618}\label{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99af6f5c3b541594965177862ce4c00c618}} 
+CHANGE\+\_\+\+FLAG&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SETTINGS@{SETTINGS}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!SETTINGS@{SETTINGS}}}\mbox{\Hypertarget{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99ac678338caea29d77d56be2ea56325610}\label{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99ac678338caea29d77d56be2ea56325610}} 
+SETTINGS&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EDIT\_PERIPHERALS@{EDIT\_PERIPHERALS}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!EDIT\_PERIPHERALS@{EDIT\_PERIPHERALS}}}\mbox{\Hypertarget{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99a24fbe0fa49f3d0553c71b0f666c186e2}\label{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99a24fbe0fa49f3d0553c71b0f666c186e2}} 
+EDIT\+\_\+\+PERIPHERALS&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 141 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8}\label{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8}} 
+\index{Variables.hpp@{Variables.hpp}!State@{State}}
+\index{State@{State}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{State}{State}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8}{State}}}
+
+
+
+pages states 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HOME@{HOME}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!HOME@{HOME}}}\mbox{\Hypertarget{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a8f280224da64e98f2d52d50ec43bc197}\label{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a8f280224da64e98f2d52d50ec43bc197}} 
+HOME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MAIN@{MAIN}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!MAIN@{MAIN}}}\mbox{\Hypertarget{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a41c6eb506ccf657cc7e958c8e8c769cd}\label{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a41c6eb506ccf657cc7e958c8e8c769cd}} 
+MAIN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{STANDBY@{STANDBY}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!STANDBY@{STANDBY}}}\mbox{\Hypertarget{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8ae4634ae4352b512b38c5da9dc1610ca6}\label{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8ae4634ae4352b512b38c5da9dc1610ca6}} 
+STANDBY&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SECURITY@{SECURITY}!Variables.hpp@{Variables.hpp}}\index{Variables.hpp@{Variables.hpp}!SECURITY@{SECURITY}}}\mbox{\Hypertarget{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a1f086547f14eb82024dea582d0424ab1}\label{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8a1f086547f14eb82024dea582d0424ab1}} 
+SECURITY&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 129 of file Variables.\+hpp.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Variables_8hpp_af654bed7ea3fdeab141248ad96749ee4}\label{Variables_8hpp_af654bed7ea3fdeab141248ad96749ee4}} 
+\index{Variables.hpp@{Variables.hpp}!ac\_out@{ac\_out}}
+\index{ac\_out@{ac\_out}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{ac\_out()}{ac\_out()}}
+{\footnotesize\ttfamily Pwm\+Out ac\+\_\+out (\begin{DoxyParamCaption}\item[{PC\+\_\+9}]{ }\end{DoxyParamCaption})}
+
+
+
+AC. 
+
+\begin{DoxyReturn}{Returns}
+Pwm\+Out 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a567c82946ed50c06ec15d7436377d0c0}\label{Variables_8hpp_a567c82946ed50c06ec15d7436377d0c0}} 
+\index{Variables.hpp@{Variables.hpp}!appliances\_out@{appliances\_out}}
+\index{appliances\_out@{appliances\_out}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{appliances\_out()}{appliances\_out()}}
+{\footnotesize\ttfamily Bus\+Out appliances\+\_\+out (\begin{DoxyParamCaption}\item[{PB\+\_\+15}]{,  }\item[{PB\+\_\+14}]{,  }\item[{PB\+\_\+13}]{ }\end{DoxyParamCaption})}
+
+
+
+Output appliances. 
+
+\begin{DoxyReturn}{Returns}
+Bus\+Out 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a485b2a5d4f67110046d89ae1d6d37a16}\label{Variables_8hpp_a485b2a5d4f67110046d89ae1d6d37a16}} 
+\index{Variables.hpp@{Variables.hpp}!buzzer@{buzzer}}
+\index{buzzer@{buzzer}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{buzzer()}{buzzer()}}
+{\footnotesize\ttfamily Pwm\+Out buzzer (\begin{DoxyParamCaption}\item[{PA\+\_\+15}]{ }\end{DoxyParamCaption})}
+
+
+
+Buzzer. 
+
+\begin{DoxyReturn}{Returns}
+Pwm\+Out 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_ac92d91673f4bc6d1d7731cf2f832de32}\label{Variables_8hpp_ac92d91673f4bc6d1d7731cf2f832de32}} 
+\index{Variables.hpp@{Variables.hpp}!devices\_out@{devices\_out}}
+\index{devices\_out@{devices\_out}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{devices\_out()}{devices\_out()}}
+{\footnotesize\ttfamily Bus\+Out devices\+\_\+out (\begin{DoxyParamCaption}\item[{PA\+\_\+12}]{,  }\item[{PA\+\_\+11}]{ }\end{DoxyParamCaption})}
+
+
+
+Output devices. 
+
+\begin{DoxyReturn}{Returns}
+Bus\+Out 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a975a4c7b9a96dc00481652f3971b3e92}\label{Variables_8hpp_a975a4c7b9a96dc00481652f3971b3e92}} 
+\index{Variables.hpp@{Variables.hpp}!fsr\_sensor@{fsr\_sensor}}
+\index{fsr\_sensor@{fsr\_sensor}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{fsr\_sensor()}{fsr\_sensor()}}
+{\footnotesize\ttfamily Analog\+In fsr\+\_\+sensor (\begin{DoxyParamCaption}\item[{PA\+\_\+4}]{ }\end{DoxyParamCaption})}
+
+
+
+FSR. 
+
+\begin{DoxyReturn}{Returns}
+Analog\+In 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_af39cb80f5baf6dfca31bd7f16f68d53d}\label{Variables_8hpp_af39cb80f5baf6dfca31bd7f16f68d53d}} 
+\index{Variables.hpp@{Variables.hpp}!joystick@{joystick}}
+\index{joystick@{joystick}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{joystick()}{joystick()}}
+{\footnotesize\ttfamily Joystick joystick (\begin{DoxyParamCaption}\item[{PC\+\_\+3}]{,  }\item[{PC\+\_\+2}]{ }\end{DoxyParamCaption})}
+
+
+
+Joystick object. 
+
+\begin{DoxyReturn}{Returns}
+Joystick 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a5ef82a440147f8a4c9b4f244bd814579}\label{Variables_8hpp_a5ef82a440147f8a4c9b4f244bd814579}} 
+\index{Variables.hpp@{Variables.hpp}!lcd@{lcd}}
+\index{lcd@{lcd}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{lcd()}{lcd()}}
+{\footnotesize\ttfamily N5110 lcd (\begin{DoxyParamCaption}\item[{PC\+\_\+7}]{,  }\item[{PA\+\_\+9}]{,  }\item[{PB\+\_\+10}]{,  }\item[{PB\+\_\+5}]{,  }\item[{PB\+\_\+3}]{,  }\item[{PA\+\_\+10}]{ }\end{DoxyParamCaption})}
+
+
+
+LCD Object. 
+
+\begin{DoxyReturn}{Returns}
+N5110 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a743ec82ffa6d9407472964fc15275d0a}\label{Variables_8hpp_a743ec82ffa6d9407472964fc15275d0a}} 
+\index{Variables.hpp@{Variables.hpp}!ldr\_sensor@{ldr\_sensor}}
+\index{ldr\_sensor@{ldr\_sensor}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{ldr\_sensor()}{ldr\_sensor()}}
+{\footnotesize\ttfamily Analog\+In ldr\+\_\+sensor (\begin{DoxyParamCaption}\item[{PA\+\_\+1}]{ }\end{DoxyParamCaption})}
+
+
+
+LDR sensor. 
+
+\begin{DoxyReturn}{Returns}
+Analog\+In 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_aee8b3dce7acf28b2c8bd5120a3c9c8fd}\label{Variables_8hpp_aee8b3dce7acf28b2c8bd5120a3c9c8fd}} 
+\index{Variables.hpp@{Variables.hpp}!left\_button@{left\_button}}
+\index{left\_button@{left\_button}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{left\_button()}{left\_button()}}
+{\footnotesize\ttfamily Digital\+In left\+\_\+button (\begin{DoxyParamCaption}\item[{PC\+\_\+12}]{ }\end{DoxyParamCaption})}
+
+
+
+Left button. 
+
+\begin{DoxyReturn}{Returns}
+Digital\+In 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a340807570a2f28069d493b7c34a886bc}\label{Variables_8hpp_a340807570a2f28069d493b7c34a886bc}} 
+\index{Variables.hpp@{Variables.hpp}!main\_button@{main\_button}}
+\index{main\_button@{main\_button}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{main\_button()}{main\_button()}}
+{\footnotesize\ttfamily Digital\+In main\+\_\+button (\begin{DoxyParamCaption}\item[{PC\+\_\+11}]{ }\end{DoxyParamCaption})}
+
+
+
+Main button. 
+
+\begin{DoxyReturn}{Returns}
+Digital\+In 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a789e43fa83965995163a12fbf031f6c8}\label{Variables_8hpp_a789e43fa83965995163a12fbf031f6c8}} 
+\index{Variables.hpp@{Variables.hpp}!pc@{pc}}
+\index{pc@{pc}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{pc()}{pc()}}
+{\footnotesize\ttfamily Buffered\+Serial pc (\begin{DoxyParamCaption}\item[{USBTX}]{,  }\item[{USBRX}]{ }\end{DoxyParamCaption})}
+
+
+
+Used to print on screen. 
+
+\begin{DoxyReturn}{Returns}
+Buffered\+Serial 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a76e1a7c4383670c2ffcbae77135d46c5}\label{Variables_8hpp_a76e1a7c4383670c2ffcbae77135d46c5}} 
+\index{Variables.hpp@{Variables.hpp}!pot@{pot}}
+\index{pot@{pot}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{pot()}{pot()}}
+{\footnotesize\ttfamily Analog\+In pot (\begin{DoxyParamCaption}\item[{PC\+\_\+0}]{ }\end{DoxyParamCaption})}
+
+
+
+Potentiometer. 
+
+\begin{DoxyReturn}{Returns}
+Analog\+In 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_afd444b9c6672a0255eb9a4cd2f282abc}\label{Variables_8hpp_afd444b9c6672a0255eb9a4cd2f282abc}} 
+\index{Variables.hpp@{Variables.hpp}!right\_button@{right\_button}}
+\index{right\_button@{right\_button}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{right\_button()}{right\_button()}}
+{\footnotesize\ttfamily Digital\+In right\+\_\+button (\begin{DoxyParamCaption}\item[{PC\+\_\+10}]{ }\end{DoxyParamCaption})}
+
+
+
+Right button. 
+
+\begin{DoxyReturn}{Returns}
+Digital\+In 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Variables_8hpp_a142e6caa413f36c9cf1e51b455f23a02}\label{Variables_8hpp_a142e6caa413f36c9cf1e51b455f23a02}} 
+\index{Variables.hpp@{Variables.hpp}!tmp\_sensor@{tmp\_sensor}}
+\index{tmp\_sensor@{tmp\_sensor}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{tmp\_sensor()}{tmp\_sensor()}}
+{\footnotesize\ttfamily Analog\+In tmp\+\_\+sensor (\begin{DoxyParamCaption}\item[{PA\+\_\+0}]{ }\end{DoxyParamCaption})}
+
+
+
+Tempreature sensor. 
+
+\begin{DoxyReturn}{Returns}
+Analog\+In 
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{Variables_8hpp_a399b34e6b854cb173de807e033bea79f}\label{Variables_8hpp_a399b34e6b854cb173de807e033bea79f}} 
+\index{Variables.hpp@{Variables.hpp}!ac\_icon@{ac\_icon}}
+\index{ac\_icon@{ac\_icon}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{ac\_icon}{ac\_icon}}
+{\footnotesize\ttfamily const int ac\+\_\+icon\mbox{[}7\mbox{]}\mbox{[}11\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0,0,0,0,0,0,0,0,0,0,0\},}
+\DoxyCodeLine{    \{1,1,1,1,1,1,1,1,1,0,0\},}
+\DoxyCodeLine{    \{1,0,0,0,0,0,0,0,1,0,1\},}
+\DoxyCodeLine{    \{1,0,0,1,1,1,0,0,1,0,0\},}
+\DoxyCodeLine{    \{1,1,1,1,1,1,1,1,1,0,1\},}
+\DoxyCodeLine{    \{0,1,0,1,0,1,0,1,0,0,0\},}
+\DoxyCodeLine{    \{0,0,0,0,0,0,0,0,0,0,0\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+AC icon. 
+
+
+
+Definition at line 195 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_ad32d0c34b97a427ee1c29ea817976fb8}\label{Variables_8hpp_ad32d0c34b97a427ee1c29ea817976fb8}} 
+\index{Variables.hpp@{Variables.hpp}!correct\_icon@{correct\_icon}}
+\index{correct\_icon@{correct\_icon}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{correct\_icon}{correct\_icon}}
+{\footnotesize\ttfamily const int correct\+\_\+icon\mbox{[}7\mbox{]}\mbox{[}9\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0,0,0,0,0,0,0,0,0\},}
+\DoxyCodeLine{    \{0,0,0,0,0,0,0,0,1\},}
+\DoxyCodeLine{    \{0,0,0,0,0,0,0,1,0\},}
+\DoxyCodeLine{    \{1,0,0,0,0,0,1,0,0\},}
+\DoxyCodeLine{    \{0,1,0,0,0,1,0,0,0\},}
+\DoxyCodeLine{    \{0,0,1,1,1,0,0,0,0\},}
+\DoxyCodeLine{    \{0,0,0,1,0,0,0,0,0\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Correct icon. 
+
+
+
+Definition at line 223 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a8b829000dd225c37daa1429554d94bb5}\label{Variables_8hpp_a8b829000dd225c37daa1429554d94bb5}} 
+\index{Variables.hpp@{Variables.hpp}!false\_icon@{false\_icon}}
+\index{false\_icon@{false\_icon}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{false\_icon}{false\_icon}}
+{\footnotesize\ttfamily const int false\+\_\+icon\mbox{[}7\mbox{]}\mbox{[}7\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0,0,0,0,0,0,0\},}
+\DoxyCodeLine{    \{0,1,0,0,0,1,0\},}
+\DoxyCodeLine{    \{0,0,1,0,1,0,0\},}
+\DoxyCodeLine{    \{0,0,0,1,0,0,0\},}
+\DoxyCodeLine{    \{0,0,1,0,1,0,0\},}
+\DoxyCodeLine{    \{0,1,0,0,0,1,0\},}
+\DoxyCodeLine{    \{0,0,0,0,0,0,0\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+False icon. 
+
+
+
+Definition at line 209 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a6d7aee2144ebb0bb511195358ddbc8d6}\label{Variables_8hpp_a6d7aee2144ebb0bb511195358ddbc8d6}} 
+\index{Variables.hpp@{Variables.hpp}!home\_icon@{home\_icon}}
+\index{home\_icon@{home\_icon}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{home\_icon}{home\_icon}}
+{\footnotesize\ttfamily const int home\+\_\+icon\mbox{[}7\mbox{]}\mbox{[}7\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0,0,0,1,0,0,0\},}
+\DoxyCodeLine{    \{0,0,1,1,1,0,0\},}
+\DoxyCodeLine{    \{0,1,1,1,1,1,0\},}
+\DoxyCodeLine{    \{1,0,0,0,0,0,1\},}
+\DoxyCodeLine{    \{1,0,1,1,1,0,1\},}
+\DoxyCodeLine{    \{1,0,1,0,1,0,1\},}
+\DoxyCodeLine{    \{1,1,1,1,1,1,1\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Home icon. 
+
+
+
+Definition at line 167 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a744470c6f0debe5ddae75ae319a83149}\label{Variables_8hpp_a744470c6f0debe5ddae75ae319a83149}} 
+\index{Variables.hpp@{Variables.hpp}!left\_arrow@{left\_arrow}}
+\index{left\_arrow@{left\_arrow}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{left\_arrow}{left\_arrow}}
+{\footnotesize\ttfamily const int left\+\_\+arrow\mbox{[}7\mbox{]}\mbox{[}8\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0,0,0,1,0,0,0,1\},}
+\DoxyCodeLine{    \{0,0,1,1,0,0,1,1\},}
+\DoxyCodeLine{    \{0,1,1,1,0,1,1,1\},}
+\DoxyCodeLine{    \{1,1,1,1,1,1,1,1\},}
+\DoxyCodeLine{    \{0,1,1,1,0,1,1,1\},}
+\DoxyCodeLine{    \{0,0,1,1,0,0,1,1\},}
+\DoxyCodeLine{    \{0,0,0,1,0,0,0,1\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Left arrow icon. 
+
+
+
+Definition at line 251 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a2032625d696dd5c944e274809291e751}\label{Variables_8hpp_a2032625d696dd5c944e274809291e751}} 
+\index{Variables.hpp@{Variables.hpp}!light\_icon@{light\_icon}}
+\index{light\_icon@{light\_icon}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{light\_icon}{light\_icon}}
+{\footnotesize\ttfamily const int light\+\_\+icon\mbox{[}7\mbox{]}\mbox{[}9\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0,0,1,1,1,0,0,0,0\},}
+\DoxyCodeLine{    \{0,1,0,0,0,1,0,0,0\},}
+\DoxyCodeLine{    \{1,0,1,0,1,0,1,0,1\},}
+\DoxyCodeLine{    \{1,0,1,1,1,0,1,0,0\},}
+\DoxyCodeLine{    \{0,1,1,0,1,1,0,0,1\},}
+\DoxyCodeLine{    \{0,0,1,1,1,0,0,0,0\},}
+\DoxyCodeLine{    \{0,0,1,1,1,0,0,0,0\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Light bulb icon. 
+
+
+
+Definition at line 181 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a75e3e4e9412bd7c5108568da754aa590}\label{Variables_8hpp_a75e3e4e9412bd7c5108568da754aa590}} 
+\index{Variables.hpp@{Variables.hpp}!lights\_out@{lights\_out}}
+\index{lights\_out@{lights\_out}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{lights\_out}{lights\_out}}
+{\footnotesize\ttfamily Pwm\+Out lights\+\_\+out\mbox{[}\mbox{\hyperlink{Variables_8hpp_a1c04f26ac948092ee084b2bab93c170d}{N\+\_\+\+LIGHTS}}\mbox{]} = \{Pwm\+Out(PC\+\_\+8), Pwm\+Out(PC\+\_\+6), Pwm\+Out(PB\+\_\+8)\}}
+
+
+
+Output lights. 
+
+
+
+Definition at line 116 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_aec38c4fb4bb5107a26d3ce216a2cf561}\label{Variables_8hpp_aec38c4fb4bb5107a26d3ce216a2cf561}} 
+\index{Variables.hpp@{Variables.hpp}!lock\_icon@{lock\_icon}}
+\index{lock\_icon@{lock\_icon}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{lock\_icon}{lock\_icon}}
+{\footnotesize\ttfamily const int lock\+\_\+icon\mbox{[}7\mbox{]}\mbox{[}10\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0,0,0,1,1,0,0,0,0,0\},}
+\DoxyCodeLine{    \{0,0,1,0,0,1,0,0,0,0\},}
+\DoxyCodeLine{    \{0,1,1,1,1,1,1,0,0,1\},}
+\DoxyCodeLine{    \{1,0,0,1,1,0,0,1,0,0\},}
+\DoxyCodeLine{    \{1,0,1,0,0,1,0,1,0,1\},}
+\DoxyCodeLine{    \{1,0,0,1,1,0,0,1,0,0\},}
+\DoxyCodeLine{    \{0,1,1,1,1,1,1,0,0,0\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Lock icon. 
+
+
+
+Definition at line 237 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a32a70ce946db008918ae708968de72c5}\label{Variables_8hpp_a32a70ce946db008918ae708968de72c5}} 
+\index{Variables.hpp@{Variables.hpp}!main\_icon@{main\_icon}}
+\index{main\_icon@{main\_icon}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{main\_icon}{main\_icon}}
+{\footnotesize\ttfamily const int main\+\_\+icon\mbox{[}7\mbox{]}\mbox{[}7\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{1,0,0,1,0,0,1\},}
+\DoxyCodeLine{    \{0,1,1,1,1,1,0\},}
+\DoxyCodeLine{    \{0,1,0,1,0,1,0\},}
+\DoxyCodeLine{    \{1,1,1,1,1,1,1\},}
+\DoxyCodeLine{    \{0,1,0,1,0,1,0\},}
+\DoxyCodeLine{    \{0,1,1,1,1,1,0\},}
+\DoxyCodeLine{    \{1,0,0,1,0,0,1\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Main\+Page icon. 
+
+
+
+Definition at line 265 of file Variables.\+hpp.
+
+\mbox{\Hypertarget{Variables_8hpp_a985791a123b40eb274d204fd592d8583}\label{Variables_8hpp_a985791a123b40eb274d204fd592d8583}} 
+\index{Variables.hpp@{Variables.hpp}!right\_arrow@{right\_arrow}}
+\index{right\_arrow@{right\_arrow}!Variables.hpp@{Variables.hpp}}
+\doxysubsubsection{\texorpdfstring{right\_arrow}{right\_arrow}}
+{\footnotesize\ttfamily const int right\+\_\+arrow\mbox{[}7\mbox{]}\mbox{[}8\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{1,0,0,0,1,0,0,0\},}
+\DoxyCodeLine{    \{1,1,0,0,1,1,0,0\},}
+\DoxyCodeLine{    \{1,1,1,0,1,1,1,0\},}
+\DoxyCodeLine{    \{1,1,1,1,1,1,1,1\},}
+\DoxyCodeLine{    \{1,1,1,0,1,1,1,0\},}
+\DoxyCodeLine{    \{1,1,0,0,1,1,0,0\},}
+\DoxyCodeLine{    \{1,0,0,0,1,0,0,0\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Right arrow icon. 
+
+
+
+Definition at line 153 of file Variables.\+hpp.
+

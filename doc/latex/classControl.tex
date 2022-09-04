@@ -1,0 +1,466 @@
+\hypertarget{classControl}{}\doxysection{Control Class Reference}
+\label{classControl}\index{Control@{Control}}
+
+
+Control class that manipulates everything.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Control.\+hpp\char`\"{}}
+
+
+
+Collaboration diagram for Control\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classControl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classControl_aa730aeda4517f40bc48ba1e46ebded77}{Control}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Control object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_ac26f3964f9a0ad4f341384a4891d6489}{run}} ()
+\begin{DoxyCompactList}\small\item\em Runs everything. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classControl_abd3f81bb891d3f205ca62b37dd2bcfbe}{read\+\_\+sensors}} ()
+\begin{DoxyCompactList}\small\item\em Reads sensor values. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_aed5dc0e4fdd56d0ec702381312621021}{set\+\_\+main}} ()
+\begin{DoxyCompactList}\small\item\em Set the Main\+Page object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_adaf3fe8dd3aaf78002e6e503c1f23e22}{start\+\_\+loop}} ()
+\begin{DoxyCompactList}\small\item\em Called at start of each loop. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_aa2a1011cfe047e8330a6852ed547a57c}{check\+\_\+main\+\_\+selection}} ()
+\begin{DoxyCompactList}\small\item\em Checks main page selections. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_a807915ec88892bea98fad7671f9e392f}{run\+\_\+change\+\_\+time}} ()
+\begin{DoxyCompactList}\small\item\em Runs change the time option of Main\+Page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_a647144da9f1e2ab6fa2420ff25cf1a01}{run\+\_\+change\+\_\+flags}} ()
+\begin{DoxyCompactList}\small\item\em Runs change flags option of Main\+Page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_a7d2ec36b4a5213342eab667f36f0c27a}{run\+\_\+settings}} ()
+\begin{DoxyCompactList}\small\item\em Runs setting option of Main\+Page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_ad1f53a7f8ce6b9b44c1e61747a68b545}{run\+\_\+edit\+\_\+peripherals}} ()
+\begin{DoxyCompactList}\small\item\em Runs edit peripherals option of Main\+Page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_adb44a8f92448f7c33f7fba70e8440f4e}{run\+\_\+home\+\_\+page}} ()
+\begin{DoxyCompactList}\small\item\em Runs Home\+Page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_a35250f1e8e79a6cbb46f207e2e4bf14f}{run\+\_\+main\+\_\+page}} ()
+\begin{DoxyCompactList}\small\item\em Runs Main\+Page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_afe981a0b4f262d663a6567842b99f265}{run\+\_\+standby\+\_\+page}} ()
+\begin{DoxyCompactList}\small\item\em Runs Standby Page. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classControl_a534549b09cd985ce09a57f923bbe8743}{run\+\_\+security\+\_\+page}} ()
+\begin{DoxyCompactList}\small\item\em Runs security mode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classControl_aa5fdf1967a7f548ebcc58697d4c03dcf}{ldr\+\_\+val}}
+\begin{DoxyCompactList}\small\item\em LDR value. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classControl_a8363da9768eafec0a7c2b78a25394d77}{tmp\+\_\+val}}
+\begin{DoxyCompactList}\small\item\em Tempreature value. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classControl_acc7df03d15ecf08895992a742378b147}{fsr\+\_\+val}}
+\begin{DoxyCompactList}\small\item\em Force sensor value. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classControl_a647feca22e1c1179bc7e88f9720042d5}{main\+\_\+brightness}}
+\begin{DoxyCompactList}\small\item\em Stores the main brightness of screen. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSpeaker}{Speaker}} \mbox{\hyperlink{classControl_af3f32b0528c3d5f3b09035444eee312e}{speaker}}
+\begin{DoxyCompactList}\small\item\em Speaker object. \end{DoxyCompactList}\item 
+time\+\_\+t \mbox{\hyperlink{classControl_af90aa4b86428e15999ac01f40c38d184}{seconds}}
+\begin{DoxyCompactList}\small\item\em Used to keep track of time. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHomePage}{Home\+Page}} \mbox{\hyperlink{classControl_a6adcd6f933bdc71c13d93daf0ae035cd}{home\+\_\+page}}
+\begin{DoxyCompactList}\small\item\em Home\+Page object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classMainPage}{Main\+Page}} \mbox{\hyperlink{classControl_a8e3b4fc2e6e5d59f646462db901052f4}{main\+\_\+page}}
+\begin{DoxyCompactList}\small\item\em Main\+Page Object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8}{State}} \mbox{\hyperlink{classControl_ae58c0bbd7d72410f04ab7f2624eec8a9}{STATE}}
+\begin{DoxyCompactList}\small\item\em State enum. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classControl_ad8f951981e7e1dbcea00960df8d923a0}{left\+\_\+side}}
+\begin{DoxyCompactList}\small\item\em Used in main page selection. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classControl_a26e15346d2cc3a50160900487cd0af72}{down\+\_\+side}}
+\begin{DoxyCompactList}\small\item\em Used in main page selection. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99}{Options}} \mbox{\hyperlink{classControl_a852d470c5ddd00359fce9e633a88c15f}{OPTION}}
+\begin{DoxyCompactList}\small\item\em Options enum. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Control class that manipulates everything. 
+
+Definition at line 9 of file Control.\+hpp.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classControl_aa730aeda4517f40bc48ba1e46ebded77}\label{classControl_aa730aeda4517f40bc48ba1e46ebded77}} 
+\index{Control@{Control}!Control@{Control}}
+\index{Control@{Control}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{Control()}{Control()}}
+{\footnotesize\ttfamily Control\+::\+Control (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a new Control object. 
+
+
+
+Definition at line 850 of file Control.\+hpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classControl_aa2a1011cfe047e8330a6852ed547a57c}\label{classControl_aa2a1011cfe047e8330a6852ed547a57c}} 
+\index{Control@{Control}!check\_main\_selection@{check\_main\_selection}}
+\index{check\_main\_selection@{check\_main\_selection}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{check\_main\_selection()}{check\_main\_selection()}}
+{\footnotesize\ttfamily void Control\+::check\+\_\+main\+\_\+selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Checks main page selections. 
+
+
+
+Definition at line 144 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_abd3f81bb891d3f205ca62b37dd2bcfbe}\label{classControl_abd3f81bb891d3f205ca62b37dd2bcfbe}} 
+\index{Control@{Control}!read\_sensors@{read\_sensors}}
+\index{read\_sensors@{read\_sensors}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{read\_sensors()}{read\_sensors()}}
+{\footnotesize\ttfamily void Control\+::read\+\_\+sensors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Reads sensor values. 
+
+
+
+Definition at line 88 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_ac26f3964f9a0ad4f341384a4891d6489}\label{classControl_ac26f3964f9a0ad4f341384a4891d6489}} 
+\index{Control@{Control}!run@{run}}
+\index{run@{run}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void Control\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Runs everything. 
+
+
+
+Definition at line 876 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a647144da9f1e2ab6fa2420ff25cf1a01}\label{classControl_a647144da9f1e2ab6fa2420ff25cf1a01}} 
+\index{Control@{Control}!run\_change\_flags@{run\_change\_flags}}
+\index{run\_change\_flags@{run\_change\_flags}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_change\_flags()}{run\_change\_flags()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+change\+\_\+flags (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs change flags option of Main\+Page. 
+
+
+
+Definition at line 378 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a807915ec88892bea98fad7671f9e392f}\label{classControl_a807915ec88892bea98fad7671f9e392f}} 
+\index{Control@{Control}!run\_change\_time@{run\_change\_time}}
+\index{run\_change\_time@{run\_change\_time}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_change\_time()}{run\_change\_time()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+change\+\_\+time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs change the time option of Main\+Page. 
+
+
+
+Definition at line 222 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_ad1f53a7f8ce6b9b44c1e61747a68b545}\label{classControl_ad1f53a7f8ce6b9b44c1e61747a68b545}} 
+\index{Control@{Control}!run\_edit\_peripherals@{run\_edit\_peripherals}}
+\index{run\_edit\_peripherals@{run\_edit\_peripherals}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_edit\_peripherals()}{run\_edit\_peripherals()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+edit\+\_\+peripherals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs edit peripherals option of Main\+Page. 
+
+
+
+Definition at line 511 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_adb44a8f92448f7c33f7fba70e8440f4e}\label{classControl_adb44a8f92448f7c33f7fba70e8440f4e}} 
+\index{Control@{Control}!run\_home\_page@{run\_home\_page}}
+\index{run\_home\_page@{run\_home\_page}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_home\_page()}{run\_home\_page()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+home\+\_\+page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs Home\+Page. 
+
+
+
+Definition at line 723 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a35250f1e8e79a6cbb46f207e2e4bf14f}\label{classControl_a35250f1e8e79a6cbb46f207e2e4bf14f}} 
+\index{Control@{Control}!run\_main\_page@{run\_main\_page}}
+\index{run\_main\_page@{run\_main\_page}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_main\_page()}{run\_main\_page()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+main\+\_\+page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs Main\+Page. 
+
+
+
+Definition at line 749 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a534549b09cd985ce09a57f923bbe8743}\label{classControl_a534549b09cd985ce09a57f923bbe8743}} 
+\index{Control@{Control}!run\_security\_page@{run\_security\_page}}
+\index{run\_security\_page@{run\_security\_page}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_security\_page()}{run\_security\_page()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+security\+\_\+page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs security mode. 
+
+
+
+Definition at line 820 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a7d2ec36b4a5213342eab667f36f0c27a}\label{classControl_a7d2ec36b4a5213342eab667f36f0c27a}} 
+\index{Control@{Control}!run\_settings@{run\_settings}}
+\index{run\_settings@{run\_settings}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_settings()}{run\_settings()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs setting option of Main\+Page. 
+
+
+
+Definition at line 454 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_afe981a0b4f262d663a6567842b99f265}\label{classControl_afe981a0b4f262d663a6567842b99f265}} 
+\index{Control@{Control}!run\_standby\_page@{run\_standby\_page}}
+\index{run\_standby\_page@{run\_standby\_page}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{run\_standby\_page()}{run\_standby\_page()}}
+{\footnotesize\ttfamily void Control\+::run\+\_\+standby\+\_\+page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Runs Standby Page. 
+
+
+
+Definition at line 796 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_aed5dc0e4fdd56d0ec702381312621021}\label{classControl_aed5dc0e4fdd56d0ec702381312621021}} 
+\index{Control@{Control}!set\_main@{set\_main}}
+\index{set\_main@{set\_main}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{set\_main()}{set\_main()}}
+{\footnotesize\ttfamily void Control\+::set\+\_\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Set the Main\+Page object. 
+
+
+
+Definition at line 101 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_adaf3fe8dd3aaf78002e6e503c1f23e22}\label{classControl_adaf3fe8dd3aaf78002e6e503c1f23e22}} 
+\index{Control@{Control}!start\_loop@{start\_loop}}
+\index{start\_loop@{start\_loop}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{start\_loop()}{start\_loop()}}
+{\footnotesize\ttfamily void Control\+::start\+\_\+loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Called at start of each loop. 
+
+
+
+Definition at line 112 of file Control.\+hpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classControl_a26e15346d2cc3a50160900487cd0af72}\label{classControl_a26e15346d2cc3a50160900487cd0af72}} 
+\index{Control@{Control}!down\_side@{down\_side}}
+\index{down\_side@{down\_side}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{down\_side}{down\_side}}
+{\footnotesize\ttfamily bool Control\+::down\+\_\+side\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used in main page selection. 
+
+
+
+Definition at line 76 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_acc7df03d15ecf08895992a742378b147}\label{classControl_acc7df03d15ecf08895992a742378b147}} 
+\index{Control@{Control}!fsr\_val@{fsr\_val}}
+\index{fsr\_val@{fsr\_val}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{fsr\_val}{fsr\_val}}
+{\footnotesize\ttfamily float Control\+::fsr\+\_\+val\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Force sensor value. 
+
+
+
+Definition at line 28 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a6adcd6f933bdc71c13d93daf0ae035cd}\label{classControl_a6adcd6f933bdc71c13d93daf0ae035cd}} 
+\index{Control@{Control}!home\_page@{home\_page}}
+\index{home\_page@{home\_page}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{home\_page}{home\_page}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHomePage}{Home\+Page}} Control\+::home\+\_\+page\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Home\+Page object. 
+
+
+
+Definition at line 52 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_aa5fdf1967a7f548ebcc58697d4c03dcf}\label{classControl_aa5fdf1967a7f548ebcc58697d4c03dcf}} 
+\index{Control@{Control}!ldr\_val@{ldr\_val}}
+\index{ldr\_val@{ldr\_val}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{ldr\_val}{ldr\_val}}
+{\footnotesize\ttfamily float Control\+::ldr\+\_\+val\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+LDR value. 
+
+
+
+Definition at line 16 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_ad8f951981e7e1dbcea00960df8d923a0}\label{classControl_ad8f951981e7e1dbcea00960df8d923a0}} 
+\index{Control@{Control}!left\_side@{left\_side}}
+\index{left\_side@{left\_side}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{left\_side}{left\_side}}
+{\footnotesize\ttfamily bool Control\+::left\+\_\+side\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used in main page selection. 
+
+
+
+Definition at line 70 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a647feca22e1c1179bc7e88f9720042d5}\label{classControl_a647feca22e1c1179bc7e88f9720042d5}} 
+\index{Control@{Control}!main\_brightness@{main\_brightness}}
+\index{main\_brightness@{main\_brightness}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{main\_brightness}{main\_brightness}}
+{\footnotesize\ttfamily float Control\+::main\+\_\+brightness\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stores the main brightness of screen. 
+
+
+
+Definition at line 34 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a8e3b4fc2e6e5d59f646462db901052f4}\label{classControl_a8e3b4fc2e6e5d59f646462db901052f4}} 
+\index{Control@{Control}!main\_page@{main\_page}}
+\index{main\_page@{main\_page}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{main\_page}{main\_page}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classMainPage}{Main\+Page}} Control\+::main\+\_\+page\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Main\+Page Object. 
+
+
+
+Definition at line 58 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a852d470c5ddd00359fce9e633a88c15f}\label{classControl_a852d470c5ddd00359fce9e633a88c15f}} 
+\index{Control@{Control}!OPTION@{OPTION}}
+\index{OPTION@{OPTION}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{OPTION}{OPTION}}
+{\footnotesize\ttfamily \mbox{\hyperlink{Variables_8hpp_adf7c3ac791f996a56160a12f379cbd99}{Options}} Control\+::\+OPTION\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Options enum. 
+
+
+
+Definition at line 82 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_af90aa4b86428e15999ac01f40c38d184}\label{classControl_af90aa4b86428e15999ac01f40c38d184}} 
+\index{Control@{Control}!seconds@{seconds}}
+\index{seconds@{seconds}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{seconds}{seconds}}
+{\footnotesize\ttfamily time\+\_\+t Control\+::seconds\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Used to keep track of time. 
+
+
+
+Definition at line 46 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_af3f32b0528c3d5f3b09035444eee312e}\label{classControl_af3f32b0528c3d5f3b09035444eee312e}} 
+\index{Control@{Control}!speaker@{speaker}}
+\index{speaker@{speaker}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{speaker}{speaker}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSpeaker}{Speaker}} Control\+::speaker\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Speaker object. 
+
+
+
+Definition at line 40 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_ae58c0bbd7d72410f04ab7f2624eec8a9}\label{classControl_ae58c0bbd7d72410f04ab7f2624eec8a9}} 
+\index{Control@{Control}!STATE@{STATE}}
+\index{STATE@{STATE}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{STATE}{STATE}}
+{\footnotesize\ttfamily \mbox{\hyperlink{Variables_8hpp_a5d74787dedbc4e11c1ab15bf487e61f8}{State}} Control\+::\+STATE\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+State enum. 
+
+
+
+Definition at line 64 of file Control.\+hpp.
+
+\mbox{\Hypertarget{classControl_a8363da9768eafec0a7c2b78a25394d77}\label{classControl_a8363da9768eafec0a7c2b78a25394d77}} 
+\index{Control@{Control}!tmp\_val@{tmp\_val}}
+\index{tmp\_val@{tmp\_val}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{tmp\_val}{tmp\_val}}
+{\footnotesize\ttfamily float Control\+::tmp\+\_\+val\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tempreature value. 
+
+
+
+Definition at line 22 of file Control.\+hpp.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Control_8hpp}{Control.\+hpp}}\end{DoxyCompactItemize}

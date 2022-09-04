@@ -1,0 +1,973 @@
+\hypertarget{classHomePage}{}\doxysection{Home\+Page Class Reference}
+\label{classHomePage}\index{HomePage@{HomePage}}
+
+
+Home Page class.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Home\+Page.\+hpp\char`\"{}}
+
+
+
+Collaboration diagram for Home\+Page\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classHomePage__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHomePage_a49bf8e72132243658f2f193e8ac2333b}{Home\+Page}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Home Page object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_aac014646ba25b63deb054e4ca36ea45d}{reset\+\_\+devices}} ()
+\begin{DoxyCompactList}\small\item\em Resets devices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a08934d1f8c5e2602d0b510c605946e66}{reset\+\_\+appliances}} ()
+\begin{DoxyCompactList}\small\item\em Resets appliances. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a75d0a19a09f55a6ac3d8e9f5c091da2e}{reset\+\_\+lights}} ()
+\begin{DoxyCompactList}\small\item\em Resets lights. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_aa5dd16f12cb7019c3f8cd4863d172104}{reset\+\_\+ac}} ()
+\begin{DoxyCompactList}\small\item\em Recets AC value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a33dce9b884fc26ccb84df2f529a72ebc}{set\+\_\+total\+\_\+appliances}} (int n)
+\begin{DoxyCompactList}\small\item\em Set the total appliances. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_ae9a29dd1405a30d1b618d2ebbe878837}{set\+\_\+total\+\_\+devices}} (int n)
+\begin{DoxyCompactList}\small\item\em Set the total devices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a565bc925f2886720b2a3a2c4c77d8282}{set\+\_\+total\+\_\+lights}} (int n)
+\begin{DoxyCompactList}\small\item\em Set the total lights. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a9c6380ac785384628ca43ca11db88319}{set\+\_\+auto\+\_\+light}} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set the auto light flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_acc4a77f8cdf6eecff90de34cff58fb05}{set\+\_\+security\+\_\+mode}} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set the security mode flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_ac1b312c32fb211d6314290b02cdcb917}{set\+\_\+auto\+\_\+ac}} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set the auto ac flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_ab1afd8d13011a816421e9a837422dd1a}{set\+\_\+ac\+\_\+temp}} (float val)
+\begin{DoxyCompactList}\small\item\em Set the ac tempreature. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_aefc9caf2ff968e4b55f5bd671689985a}{set\+\_\+actual\+\_\+temp}} (float val)
+\begin{DoxyCompactList}\small\item\em Set the actual tempreature. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a543adc05a6b1fd16368ead4c7a80b51d}{set\+\_\+time\+\_\+date}} (int hour, int mins, int day, int month, int year)
+\begin{DoxyCompactList}\small\item\em Set the time date object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a7a2e27135a29faddc89099794c381bd4}{set\+\_\+time\+\_\+only}} (int hour, int mins)
+\begin{DoxyCompactList}\small\item\em Set the time only object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a9695871b80683973c76db7e06cf6aa3d}{set\+\_\+date\+\_\+only}} (int day, int month, int year)
+\begin{DoxyCompactList}\small\item\em Set the date only object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_ac5f49b90078066e1f41e2100eab4e2be}{set\+\_\+devices}} (std\+::vector$<$ bool $>$ a)
+\begin{DoxyCompactList}\small\item\em Set the devices object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a08f78c28de84014c1849980932dbf2da}{set\+\_\+lights}} (std\+::vector$<$ bool $>$ a)
+\begin{DoxyCompactList}\small\item\em Set the lights object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a457a7c1d674fbd527289d046b5c1f613}{set\+\_\+appliances}} (std\+::vector$<$ bool $>$ a)
+\begin{DoxyCompactList}\small\item\em Set the appliances object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHomePage_ad137356a79dbac212cbc5670ef58062b}{get\+\_\+auto\+\_\+light}} ()
+\begin{DoxyCompactList}\small\item\em Get the auto light flag. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHomePage_aa2290b00b70dd3c11ea8cfc35d3cffea}{get\+\_\+security\+\_\+mode}} ()
+\begin{DoxyCompactList}\small\item\em Get the security mode flag. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHomePage_a1168bac6a8c26ac0c0597621ef22a13a}{get\+\_\+auto\+\_\+ac}} ()
+\begin{DoxyCompactList}\small\item\em Get the auto ac tempreature. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_a287df3b09cdaa7459e08f74ce6db2503}{get\+\_\+year}} ()
+\begin{DoxyCompactList}\small\item\em Get the year. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_aa7e04bc1359691dd9094c89fc39c367f}{get\+\_\+month}} ()
+\begin{DoxyCompactList}\small\item\em Get the month. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_a143e06cabfdd559db74c48a92095f229}{get\+\_\+day}} ()
+\begin{DoxyCompactList}\small\item\em Get the day. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_a05c968781469bab1f1bbd61d0eb6fb86}{get\+\_\+hour}} ()
+\begin{DoxyCompactList}\small\item\em Get the hour. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_a4c6409b437e8eb8fa552cf2e01702fdb}{get\+\_\+minute}} ()
+\begin{DoxyCompactList}\small\item\em Get the minute. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classHomePage_a2700a6c24aed41511c91fca51f231d64}{get\+\_\+temp}} ()
+\begin{DoxyCompactList}\small\item\em Get the actual tempreature. \end{DoxyCompactList}\item 
+std\+::vector$<$ bool $>$ \mbox{\hyperlink{classHomePage_ae83aa025af6759d2f38eb5ea685cf85e}{get\+\_\+devices}} ()
+\begin{DoxyCompactList}\small\item\em Get the devices object. \end{DoxyCompactList}\item 
+std\+::vector$<$ bool $>$ \mbox{\hyperlink{classHomePage_a32f27c8339cc47453b2c585abbb41b7f}{get\+\_\+lights}} ()
+\begin{DoxyCompactList}\small\item\em Get the lights object. \end{DoxyCompactList}\item 
+std\+::vector$<$ bool $>$ \mbox{\hyperlink{classHomePage_aa57c08c93dc646d85da4cb72c94d5015}{get\+\_\+appliances}} ()
+\begin{DoxyCompactList}\small\item\em Get the appliances object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_a9d2335346cbcf219ab087cfdfdfdaa98}{show\+\_\+page}} (time\+\_\+t $\ast$seconds)
+\begin{DoxyCompactList}\small\item\em Shows the page. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classHomePage_a354323ed89909a19b40d70aabac25a00}{get\+\_\+on}} (std\+::vector$<$ bool $>$ a)
+\begin{DoxyCompactList}\small\item\em Get number of turned on objects for given vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHomePage_aba7cc2e689eb76cb89f72d0a8f7c035a}{check\+\_\+on}} ()
+\begin{DoxyCompactList}\small\item\em Assigns the number of operating peripherals. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classHomePage_aa828d83fe76aee0e4c1220f83fce8e6d}{total\+\_\+appliances}}
+\begin{DoxyCompactList}\small\item\em Total number of appliaces. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_ad3f27921f726c992a353b257d00ac3c8}{operating\+\_\+appliances}}
+\begin{DoxyCompactList}\small\item\em Total number of operating appliances. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_ad6292cb4ba1a83629e9449a6e00642a4}{total\+\_\+devices}}
+\begin{DoxyCompactList}\small\item\em Total number of devices. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_a12bbda4d3fcf1fe8f26847bb6b3d68f9}{operating\+\_\+devices}}
+\begin{DoxyCompactList}\small\item\em Total number of operating devices. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_aa35e598f6a2a1cf61c770ce0ad1ecca2}{total\+\_\+lights}}
+\begin{DoxyCompactList}\small\item\em Total number of lights. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHomePage_ab829aaf37b029cc266f356d684c6c436}{operating\+\_\+lights}}
+\begin{DoxyCompactList}\small\item\em Total number of operating lights. \end{DoxyCompactList}\item 
+std\+::vector$<$ bool $>$ \mbox{\hyperlink{classHomePage_ae917b04ac25073ab8178fd3da87d91b9}{appliances}}
+\begin{DoxyCompactList}\small\item\em Contains state for appliances. \end{DoxyCompactList}\item 
+std\+::vector$<$ bool $>$ \mbox{\hyperlink{classHomePage_a6de24d8c159eaf498243c122d76da642}{devices}}
+\begin{DoxyCompactList}\small\item\em Contains state for devices. \end{DoxyCompactList}\item 
+std\+::vector$<$ bool $>$ \mbox{\hyperlink{classHomePage_adade18df1932edbdefde992f922ad4e8}{lights}}
+\begin{DoxyCompactList}\small\item\em Contains state for lights. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHomePage_abdfa529a2004885cdad762efa9abcceb}{security\+\_\+mode}}
+\begin{DoxyCompactList}\small\item\em Security mode flag. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHomePage_acb392c300930c950bedc7fd8d5e26b8f}{auto\+\_\+light}}
+\begin{DoxyCompactList}\small\item\em Auto light mode flag. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHomePage_a7945e2f92f4937e5b8c837f4b9cb5d2c}{auto\+\_\+ac}}
+\begin{DoxyCompactList}\small\item\em Auto AC mode flag. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classHomePage_a4646d6aa7cacf4c0a909efd61acd1748}{ac\+\_\+temp}}
+\begin{DoxyCompactList}\small\item\em The AC tempreature. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classHomePage_a58e2003bb1ba866f54da237ed233914a}{actual\+\_\+temp}}
+\begin{DoxyCompactList}\small\item\em The measured tempreature. \end{DoxyCompactList}\item 
+struct tm \mbox{\hyperlink{classHomePage_a18adbabaf0445af0e44fdcbd55584bc0}{time}}
+\begin{DoxyCompactList}\small\item\em The time object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Home Page class. 
+
+Definition at line 8 of file Home\+Page.\+hpp.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHomePage_a49bf8e72132243658f2f193e8ac2333b}\label{classHomePage_a49bf8e72132243658f2f193e8ac2333b}} 
+\index{HomePage@{HomePage}!HomePage@{HomePage}}
+\index{HomePage@{HomePage}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{HomePage()}{HomePage()}}
+{\footnotesize\ttfamily Home\+Page\+::\+Home\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a new Home Page object. 
+
+
+
+Definition at line 132 of file Home\+Page.\+hpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHomePage_aba7cc2e689eb76cb89f72d0a8f7c035a}\label{classHomePage_aba7cc2e689eb76cb89f72d0a8f7c035a}} 
+\index{HomePage@{HomePage}!check\_on@{check\_on}}
+\index{check\_on@{check\_on}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{check\_on()}{check\_on()}}
+{\footnotesize\ttfamily void Home\+Page\+::check\+\_\+on (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Assigns the number of operating peripherals. 
+
+
+
+Definition at line 121 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aa57c08c93dc646d85da4cb72c94d5015}\label{classHomePage_aa57c08c93dc646d85da4cb72c94d5015}} 
+\index{HomePage@{HomePage}!get\_appliances@{get\_appliances}}
+\index{get\_appliances@{get\_appliances}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_appliances()}{get\_appliances()}}
+{\footnotesize\ttfamily std\+::vector$<$bool$>$ Home\+Page\+::get\+\_\+appliances (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the appliances object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$bool$>$ 
+\end{DoxyReturn}
+
+
+Definition at line 443 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a1168bac6a8c26ac0c0597621ef22a13a}\label{classHomePage_a1168bac6a8c26ac0c0597621ef22a13a}} 
+\index{HomePage@{HomePage}!get\_auto\_ac@{get\_auto\_ac}}
+\index{get\_auto\_ac@{get\_auto\_ac}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_auto\_ac()}{get\_auto\_ac()}}
+{\footnotesize\ttfamily bool Home\+Page\+::get\+\_\+auto\+\_\+ac (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the auto ac tempreature. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 362 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ad137356a79dbac212cbc5670ef58062b}\label{classHomePage_ad137356a79dbac212cbc5670ef58062b}} 
+\index{HomePage@{HomePage}!get\_auto\_light@{get\_auto\_light}}
+\index{get\_auto\_light@{get\_auto\_light}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_auto\_light()}{get\_auto\_light()}}
+{\footnotesize\ttfamily bool Home\+Page\+::get\+\_\+auto\+\_\+light (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the auto light flag. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 342 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a143e06cabfdd559db74c48a92095f229}\label{classHomePage_a143e06cabfdd559db74c48a92095f229}} 
+\index{HomePage@{HomePage}!get\_day@{get\_day}}
+\index{get\_day@{get\_day}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_day()}{get\_day()}}
+{\footnotesize\ttfamily int Home\+Page\+::get\+\_\+day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the day. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 389 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ae83aa025af6759d2f38eb5ea685cf85e}\label{classHomePage_ae83aa025af6759d2f38eb5ea685cf85e}} 
+\index{HomePage@{HomePage}!get\_devices@{get\_devices}}
+\index{get\_devices@{get\_devices}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_devices()}{get\_devices()}}
+{\footnotesize\ttfamily std\+::vector$<$bool$>$ Home\+Page\+::get\+\_\+devices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the devices object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$bool$>$ 
+\end{DoxyReturn}
+
+
+Definition at line 425 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a05c968781469bab1f1bbd61d0eb6fb86}\label{classHomePage_a05c968781469bab1f1bbd61d0eb6fb86}} 
+\index{HomePage@{HomePage}!get\_hour@{get\_hour}}
+\index{get\_hour@{get\_hour}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_hour()}{get\_hour()}}
+{\footnotesize\ttfamily int Home\+Page\+::get\+\_\+hour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the hour. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 398 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a32f27c8339cc47453b2c585abbb41b7f}\label{classHomePage_a32f27c8339cc47453b2c585abbb41b7f}} 
+\index{HomePage@{HomePage}!get\_lights@{get\_lights}}
+\index{get\_lights@{get\_lights}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_lights()}{get\_lights()}}
+{\footnotesize\ttfamily std\+::vector$<$bool$>$ Home\+Page\+::get\+\_\+lights (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the lights object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$bool$>$ 
+\end{DoxyReturn}
+
+
+Definition at line 434 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a4c6409b437e8eb8fa552cf2e01702fdb}\label{classHomePage_a4c6409b437e8eb8fa552cf2e01702fdb}} 
+\index{HomePage@{HomePage}!get\_minute@{get\_minute}}
+\index{get\_minute@{get\_minute}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_minute()}{get\_minute()}}
+{\footnotesize\ttfamily int Home\+Page\+::get\+\_\+minute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the minute. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 407 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aa7e04bc1359691dd9094c89fc39c367f}\label{classHomePage_aa7e04bc1359691dd9094c89fc39c367f}} 
+\index{HomePage@{HomePage}!get\_month@{get\_month}}
+\index{get\_month@{get\_month}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_month()}{get\_month()}}
+{\footnotesize\ttfamily int Home\+Page\+::get\+\_\+month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the month. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 380 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a354323ed89909a19b40d70aabac25a00}\label{classHomePage_a354323ed89909a19b40d70aabac25a00}} 
+\index{HomePage@{HomePage}!get\_on@{get\_on}}
+\index{get\_on@{get\_on}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_on()}{get\_on()}}
+{\footnotesize\ttfamily int Home\+Page\+::get\+\_\+on (\begin{DoxyParamCaption}\item[{std\+::vector$<$ bool $>$}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Get number of turned on objects for given vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 107 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aa2290b00b70dd3c11ea8cfc35d3cffea}\label{classHomePage_aa2290b00b70dd3c11ea8cfc35d3cffea}} 
+\index{HomePage@{HomePage}!get\_security\_mode@{get\_security\_mode}}
+\index{get\_security\_mode@{get\_security\_mode}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_security\_mode()}{get\_security\_mode()}}
+{\footnotesize\ttfamily bool Home\+Page\+::get\+\_\+security\+\_\+mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the security mode flag. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 352 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a2700a6c24aed41511c91fca51f231d64}\label{classHomePage_a2700a6c24aed41511c91fca51f231d64}} 
+\index{HomePage@{HomePage}!get\_temp@{get\_temp}}
+\index{get\_temp@{get\_temp}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_temp()}{get\_temp()}}
+{\footnotesize\ttfamily float Home\+Page\+::get\+\_\+temp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the actual tempreature. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+
+
+Definition at line 416 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a287df3b09cdaa7459e08f74ce6db2503}\label{classHomePage_a287df3b09cdaa7459e08f74ce6db2503}} 
+\index{HomePage@{HomePage}!get\_year@{get\_year}}
+\index{get\_year@{get\_year}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{get\_year()}{get\_year()}}
+{\footnotesize\ttfamily int Home\+Page\+::get\+\_\+year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the year. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 371 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aa5dd16f12cb7019c3f8cd4863d172104}\label{classHomePage_aa5dd16f12cb7019c3f8cd4863d172104}} 
+\index{HomePage@{HomePage}!reset\_ac@{reset\_ac}}
+\index{reset\_ac@{reset\_ac}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{reset\_ac()}{reset\_ac()}}
+{\footnotesize\ttfamily void Home\+Page\+::reset\+\_\+ac (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Recets AC value. 
+
+
+
+Definition at line 183 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a08934d1f8c5e2602d0b510c605946e66}\label{classHomePage_a08934d1f8c5e2602d0b510c605946e66}} 
+\index{HomePage@{HomePage}!reset\_appliances@{reset\_appliances}}
+\index{reset\_appliances@{reset\_appliances}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{reset\_appliances()}{reset\_appliances()}}
+{\footnotesize\ttfamily void Home\+Page\+::reset\+\_\+appliances (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resets appliances. 
+
+
+
+Definition at line 163 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aac014646ba25b63deb054e4ca36ea45d}\label{classHomePage_aac014646ba25b63deb054e4ca36ea45d}} 
+\index{HomePage@{HomePage}!reset\_devices@{reset\_devices}}
+\index{reset\_devices@{reset\_devices}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{reset\_devices()}{reset\_devices()}}
+{\footnotesize\ttfamily void Home\+Page\+::reset\+\_\+devices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resets devices. 
+
+
+
+Definition at line 153 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a75d0a19a09f55a6ac3d8e9f5c091da2e}\label{classHomePage_a75d0a19a09f55a6ac3d8e9f5c091da2e}} 
+\index{HomePage@{HomePage}!reset\_lights@{reset\_lights}}
+\index{reset\_lights@{reset\_lights}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{reset\_lights()}{reset\_lights()}}
+{\footnotesize\ttfamily void Home\+Page\+::reset\+\_\+lights (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resets lights. 
+
+
+
+Definition at line 173 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ab1afd8d13011a816421e9a837422dd1a}\label{classHomePage_ab1afd8d13011a816421e9a837422dd1a}} 
+\index{HomePage@{HomePage}!set\_ac\_temp@{set\_ac\_temp}}
+\index{set\_ac\_temp@{set\_ac\_temp}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_ac\_temp()}{set\_ac\_temp()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+ac\+\_\+temp (\begin{DoxyParamCaption}\item[{float}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the ac tempreature. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 246 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aefc9caf2ff968e4b55f5bd671689985a}\label{classHomePage_aefc9caf2ff968e4b55f5bd671689985a}} 
+\index{HomePage@{HomePage}!set\_actual\_temp@{set\_actual\_temp}}
+\index{set\_actual\_temp@{set\_actual\_temp}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_actual\_temp()}{set\_actual\_temp()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+actual\+\_\+temp (\begin{DoxyParamCaption}\item[{float}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the actual tempreature. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 256 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a457a7c1d674fbd527289d046b5c1f613}\label{classHomePage_a457a7c1d674fbd527289d046b5c1f613}} 
+\index{HomePage@{HomePage}!set\_appliances@{set\_appliances}}
+\index{set\_appliances@{set\_appliances}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_appliances()}{set\_appliances()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+appliances (\begin{DoxyParamCaption}\item[{std\+::vector$<$ bool $>$}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the appliances object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 331 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ac1b312c32fb211d6314290b02cdcb917}\label{classHomePage_ac1b312c32fb211d6314290b02cdcb917}} 
+\index{HomePage@{HomePage}!set\_auto\_ac@{set\_auto\_ac}}
+\index{set\_auto\_ac@{set\_auto\_ac}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_auto\_ac()}{set\_auto\_ac()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+auto\+\_\+ac (\begin{DoxyParamCaption}\item[{bool}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the auto ac flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flag} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 237 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a9c6380ac785384628ca43ca11db88319}\label{classHomePage_a9c6380ac785384628ca43ca11db88319}} 
+\index{HomePage@{HomePage}!set\_auto\_light@{set\_auto\_light}}
+\index{set\_auto\_light@{set\_auto\_light}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_auto\_light()}{set\_auto\_light()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+auto\+\_\+light (\begin{DoxyParamCaption}\item[{bool}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the auto light flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flag} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 219 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a9695871b80683973c76db7e06cf6aa3d}\label{classHomePage_a9695871b80683973c76db7e06cf6aa3d}} 
+\index{HomePage@{HomePage}!set\_date\_only@{set\_date\_only}}
+\index{set\_date\_only@{set\_date\_only}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_date\_only()}{set\_date\_only()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+date\+\_\+only (\begin{DoxyParamCaption}\item[{int}]{day,  }\item[{int}]{month,  }\item[{int}]{year }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the date only object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em day} & \\
+\hline
+{\em month} & \\
+\hline
+{\em year} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 299 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ac5f49b90078066e1f41e2100eab4e2be}\label{classHomePage_ac5f49b90078066e1f41e2100eab4e2be}} 
+\index{HomePage@{HomePage}!set\_devices@{set\_devices}}
+\index{set\_devices@{set\_devices}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_devices()}{set\_devices()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+devices (\begin{DoxyParamCaption}\item[{std\+::vector$<$ bool $>$}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the devices object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 311 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a08f78c28de84014c1849980932dbf2da}\label{classHomePage_a08f78c28de84014c1849980932dbf2da}} 
+\index{HomePage@{HomePage}!set\_lights@{set\_lights}}
+\index{set\_lights@{set\_lights}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_lights()}{set\_lights()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+lights (\begin{DoxyParamCaption}\item[{std\+::vector$<$ bool $>$}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the lights object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 321 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_acc4a77f8cdf6eecff90de34cff58fb05}\label{classHomePage_acc4a77f8cdf6eecff90de34cff58fb05}} 
+\index{HomePage@{HomePage}!set\_security\_mode@{set\_security\_mode}}
+\index{set\_security\_mode@{set\_security\_mode}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_security\_mode()}{set\_security\_mode()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+security\+\_\+mode (\begin{DoxyParamCaption}\item[{bool}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the security mode flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flag} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 228 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a543adc05a6b1fd16368ead4c7a80b51d}\label{classHomePage_a543adc05a6b1fd16368ead4c7a80b51d}} 
+\index{HomePage@{HomePage}!set\_time\_date@{set\_time\_date}}
+\index{set\_time\_date@{set\_time\_date}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_time\_date()}{set\_time\_date()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+time\+\_\+date (\begin{DoxyParamCaption}\item[{int}]{hour,  }\item[{int}]{mins,  }\item[{int}]{day,  }\item[{int}]{month,  }\item[{int}]{year }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the time date object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hour} & \\
+\hline
+{\em mins} & \\
+\hline
+{\em day} & \\
+\hline
+{\em month} & \\
+\hline
+{\em year} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 269 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a7a2e27135a29faddc89099794c381bd4}\label{classHomePage_a7a2e27135a29faddc89099794c381bd4}} 
+\index{HomePage@{HomePage}!set\_time\_only@{set\_time\_only}}
+\index{set\_time\_only@{set\_time\_only}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_time\_only()}{set\_time\_only()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+time\+\_\+only (\begin{DoxyParamCaption}\item[{int}]{hour,  }\item[{int}]{mins }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the time only object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hour} & \\
+\hline
+{\em mins} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 285 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a33dce9b884fc26ccb84df2f529a72ebc}\label{classHomePage_a33dce9b884fc26ccb84df2f529a72ebc}} 
+\index{HomePage@{HomePage}!set\_total\_appliances@{set\_total\_appliances}}
+\index{set\_total\_appliances@{set\_total\_appliances}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_total\_appliances()}{set\_total\_appliances()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+total\+\_\+appliances (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the total appliances. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 192 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ae9a29dd1405a30d1b618d2ebbe878837}\label{classHomePage_ae9a29dd1405a30d1b618d2ebbe878837}} 
+\index{HomePage@{HomePage}!set\_total\_devices@{set\_total\_devices}}
+\index{set\_total\_devices@{set\_total\_devices}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_total\_devices()}{set\_total\_devices()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+total\+\_\+devices (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the total devices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 201 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a565bc925f2886720b2a3a2c4c77d8282}\label{classHomePage_a565bc925f2886720b2a3a2c4c77d8282}} 
+\index{HomePage@{HomePage}!set\_total\_lights@{set\_total\_lights}}
+\index{set\_total\_lights@{set\_total\_lights}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{set\_total\_lights()}{set\_total\_lights()}}
+{\footnotesize\ttfamily void Home\+Page\+::set\+\_\+total\+\_\+lights (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the total lights. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 210 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a9d2335346cbcf219ab087cfdfdfdaa98}\label{classHomePage_a9d2335346cbcf219ab087cfdfdfdaa98}} 
+\index{HomePage@{HomePage}!show\_page@{show\_page}}
+\index{show\_page@{show\_page}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{show\_page()}{show\_page()}}
+{\footnotesize\ttfamily void Home\+Page\+::show\+\_\+page (\begin{DoxyParamCaption}\item[{time\+\_\+t $\ast$}]{seconds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Shows the page. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em seconds} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 452 of file Home\+Page.\+hpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classHomePage_a4646d6aa7cacf4c0a909efd61acd1748}\label{classHomePage_a4646d6aa7cacf4c0a909efd61acd1748}} 
+\index{HomePage@{HomePage}!ac\_temp@{ac\_temp}}
+\index{ac\_temp@{ac\_temp}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{ac\_temp}{ac\_temp}}
+{\footnotesize\ttfamily float Home\+Page\+::ac\+\_\+temp\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The AC tempreature. 
+
+
+
+Definition at line 87 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a58e2003bb1ba866f54da237ed233914a}\label{classHomePage_a58e2003bb1ba866f54da237ed233914a}} 
+\index{HomePage@{HomePage}!actual\_temp@{actual\_temp}}
+\index{actual\_temp@{actual\_temp}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{actual\_temp}{actual\_temp}}
+{\footnotesize\ttfamily float Home\+Page\+::actual\+\_\+temp\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The measured tempreature. 
+
+
+
+Definition at line 93 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ae917b04ac25073ab8178fd3da87d91b9}\label{classHomePage_ae917b04ac25073ab8178fd3da87d91b9}} 
+\index{HomePage@{HomePage}!appliances@{appliances}}
+\index{appliances@{appliances}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{appliances}{appliances}}
+{\footnotesize\ttfamily std\+::vector$<$bool$>$ Home\+Page\+::appliances\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Contains state for appliances. 
+
+
+
+Definition at line 51 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a7945e2f92f4937e5b8c837f4b9cb5d2c}\label{classHomePage_a7945e2f92f4937e5b8c837f4b9cb5d2c}} 
+\index{HomePage@{HomePage}!auto\_ac@{auto\_ac}}
+\index{auto\_ac@{auto\_ac}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{auto\_ac}{auto\_ac}}
+{\footnotesize\ttfamily bool Home\+Page\+::auto\+\_\+ac\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Auto AC mode flag. 
+
+
+
+Definition at line 81 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_acb392c300930c950bedc7fd8d5e26b8f}\label{classHomePage_acb392c300930c950bedc7fd8d5e26b8f}} 
+\index{HomePage@{HomePage}!auto\_light@{auto\_light}}
+\index{auto\_light@{auto\_light}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{auto\_light}{auto\_light}}
+{\footnotesize\ttfamily bool Home\+Page\+::auto\+\_\+light\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Auto light mode flag. 
+
+
+
+Definition at line 75 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a6de24d8c159eaf498243c122d76da642}\label{classHomePage_a6de24d8c159eaf498243c122d76da642}} 
+\index{HomePage@{HomePage}!devices@{devices}}
+\index{devices@{devices}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{devices}{devices}}
+{\footnotesize\ttfamily std\+::vector$<$bool$>$ Home\+Page\+::devices\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Contains state for devices. 
+
+
+
+Definition at line 57 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_adade18df1932edbdefde992f922ad4e8}\label{classHomePage_adade18df1932edbdefde992f922ad4e8}} 
+\index{HomePage@{HomePage}!lights@{lights}}
+\index{lights@{lights}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{lights}{lights}}
+{\footnotesize\ttfamily std\+::vector$<$bool$>$ Home\+Page\+::lights\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Contains state for lights. 
+
+
+
+Definition at line 63 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ad3f27921f726c992a353b257d00ac3c8}\label{classHomePage_ad3f27921f726c992a353b257d00ac3c8}} 
+\index{HomePage@{HomePage}!operating\_appliances@{operating\_appliances}}
+\index{operating\_appliances@{operating\_appliances}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{operating\_appliances}{operating\_appliances}}
+{\footnotesize\ttfamily int Home\+Page\+::operating\+\_\+appliances\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Total number of operating appliances. 
+
+
+
+Definition at line 21 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a12bbda4d3fcf1fe8f26847bb6b3d68f9}\label{classHomePage_a12bbda4d3fcf1fe8f26847bb6b3d68f9}} 
+\index{HomePage@{HomePage}!operating\_devices@{operating\_devices}}
+\index{operating\_devices@{operating\_devices}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{operating\_devices}{operating\_devices}}
+{\footnotesize\ttfamily int Home\+Page\+::operating\+\_\+devices\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Total number of operating devices. 
+
+
+
+Definition at line 33 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ab829aaf37b029cc266f356d684c6c436}\label{classHomePage_ab829aaf37b029cc266f356d684c6c436}} 
+\index{HomePage@{HomePage}!operating\_lights@{operating\_lights}}
+\index{operating\_lights@{operating\_lights}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{operating\_lights}{operating\_lights}}
+{\footnotesize\ttfamily int Home\+Page\+::operating\+\_\+lights\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Total number of operating lights. 
+
+
+
+Definition at line 45 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_abdfa529a2004885cdad762efa9abcceb}\label{classHomePage_abdfa529a2004885cdad762efa9abcceb}} 
+\index{HomePage@{HomePage}!security\_mode@{security\_mode}}
+\index{security\_mode@{security\_mode}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{security\_mode}{security\_mode}}
+{\footnotesize\ttfamily bool Home\+Page\+::security\+\_\+mode\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Security mode flag. 
+
+
+
+Definition at line 69 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_a18adbabaf0445af0e44fdcbd55584bc0}\label{classHomePage_a18adbabaf0445af0e44fdcbd55584bc0}} 
+\index{HomePage@{HomePage}!time@{time}}
+\index{time@{time}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{time}{time}}
+{\footnotesize\ttfamily struct tm Home\+Page\+::time\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The time object. 
+
+
+
+Definition at line 93 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aa828d83fe76aee0e4c1220f83fce8e6d}\label{classHomePage_aa828d83fe76aee0e4c1220f83fce8e6d}} 
+\index{HomePage@{HomePage}!total\_appliances@{total\_appliances}}
+\index{total\_appliances@{total\_appliances}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{total\_appliances}{total\_appliances}}
+{\footnotesize\ttfamily int Home\+Page\+::total\+\_\+appliances\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Total number of appliaces. 
+
+
+
+Definition at line 15 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_ad6292cb4ba1a83629e9449a6e00642a4}\label{classHomePage_ad6292cb4ba1a83629e9449a6e00642a4}} 
+\index{HomePage@{HomePage}!total\_devices@{total\_devices}}
+\index{total\_devices@{total\_devices}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{total\_devices}{total\_devices}}
+{\footnotesize\ttfamily int Home\+Page\+::total\+\_\+devices\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Total number of devices. 
+
+
+
+Definition at line 27 of file Home\+Page.\+hpp.
+
+\mbox{\Hypertarget{classHomePage_aa35e598f6a2a1cf61c770ce0ad1ecca2}\label{classHomePage_aa35e598f6a2a1cf61c770ce0ad1ecca2}} 
+\index{HomePage@{HomePage}!total\_lights@{total\_lights}}
+\index{total\_lights@{total\_lights}!HomePage@{HomePage}}
+\doxysubsubsection{\texorpdfstring{total\_lights}{total\_lights}}
+{\footnotesize\ttfamily int Home\+Page\+::total\+\_\+lights\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Total number of lights. 
+
+
+
+Definition at line 39 of file Home\+Page.\+hpp.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{HomePage_8hpp}{Home\+Page.\+hpp}}\end{DoxyCompactItemize}

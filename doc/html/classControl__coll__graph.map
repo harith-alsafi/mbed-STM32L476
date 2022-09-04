@@ -1,0 +1,6 @@
+<map id="Control" name="Control">
+<area shape="rect" id="node1" title="Control class that manipulates everything." alt="" coords="134,835,301,1220"/>
+<area shape="rect" id="node2" href="$classSpeaker.html" title="Speaker class." alt="" coords="5,335,112,442"/>
+<area shape="rect" id="node3" href="$classHomePage.html" title="Home Page class." alt="" coords="137,5,298,772"/>
+<area shape="rect" id="node4" href="$classMainPage.html" title="Main Page class." alt="" coords="323,255,525,523"/>
+</map>

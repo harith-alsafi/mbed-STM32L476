@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classControl" kind="class" language="C++" prot="public">
+    <compoundname>Control</compoundname>
+    <includes refid="Control_8hpp" local="yes">Control.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classControl_1aa5fdf1967a7f548ebcc58697d4c03dcf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Control::ldr_val</definition>
+        <argsstring></argsstring>
+        <name>ldr_val</name>
+        <briefdescription>
+<para>LDR value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="16" column="15" bodyfile="Control.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1a8363da9768eafec0a7c2b78a25394d77" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Control::tmp_val</definition>
+        <argsstring></argsstring>
+        <name>tmp_val</name>
+        <briefdescription>
+<para>Tempreature value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="22" column="15" bodyfile="Control.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1acc7df03d15ecf08895992a742378b147" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Control::fsr_val</definition>
+        <argsstring></argsstring>
+        <name>fsr_val</name>
+        <briefdescription>
+<para>Force sensor value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="28" column="15" bodyfile="Control.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1a647feca22e1c1179bc7e88f9720042d5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Control::main_brightness</definition>
+        <argsstring></argsstring>
+        <name>main_brightness</name>
+        <briefdescription>
+<para>Stores the main brightness of screen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="34" column="15" bodyfile="Control.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1af3f32b0528c3d5f3b09035444eee312e" prot="private" static="no" mutable="no">
+        <type><ref refid="classSpeaker" kindref="compound">Speaker</ref></type>
+        <definition>Speaker Control::speaker</definition>
+        <argsstring></argsstring>
+        <name>speaker</name>
+        <briefdescription>
+<para>Speaker object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="40" column="17" bodyfile="Control.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1af90aa4b86428e15999ac01f40c38d184" prot="private" static="no" mutable="no">
+        <type>time_t</type>
+        <definition>time_t Control::seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <briefdescription>
+<para>Used to keep track of time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="46" column="16" bodyfile="Control.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1a6adcd6f933bdc71c13d93daf0ae035cd" prot="private" static="no" mutable="no">
+        <type><ref refid="classHomePage" kindref="compound">HomePage</ref></type>
+        <definition>HomePage Control::home_page</definition>
+        <argsstring></argsstring>
+        <name>home_page</name>
+        <briefdescription>
+<para>HomePage object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="52" column="18" bodyfile="Control.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1a8e3b4fc2e6e5d59f646462db901052f4" prot="private" static="no" mutable="no">
+        <type><ref refid="classMainPage" kindref="compound">MainPage</ref></type>
+        <definition>MainPage Control::main_page</definition>
+        <argsstring></argsstring>
+        <name>main_page</name>
+        <briefdescription>
+<para>MainPage Object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="58" column="18" bodyfile="Control.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1ae58c0bbd7d72410f04ab7f2624eec8a9" prot="private" static="no" mutable="no">
+        <type><ref refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8" kindref="member">State</ref></type>
+        <definition>State Control::STATE</definition>
+        <argsstring></argsstring>
+        <name>STATE</name>
+        <briefdescription>
+<para>State enum. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="64" column="15" bodyfile="Control.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1ad8f951981e7e1dbcea00960df8d923a0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Control::left_side</definition>
+        <argsstring></argsstring>
+        <name>left_side</name>
+        <briefdescription>
+<para>Used in main page selection. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="70" column="14" bodyfile="Control.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1a26e15346d2cc3a50160900487cd0af72" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Control::down_side</definition>
+        <argsstring></argsstring>
+        <name>down_side</name>
+        <briefdescription>
+<para>Used in main page selection. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="76" column="14" bodyfile="Control.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classControl_1a852d470c5ddd00359fce9e633a88c15f" prot="private" static="no" mutable="no">
+        <type><ref refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99" kindref="member">Options</ref></type>
+        <definition>Options Control::OPTION</definition>
+        <argsstring></argsstring>
+        <name>OPTION</name>
+        <briefdescription>
+<para>Options enum. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="82" column="17" bodyfile="Control.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classControl_1abd3f81bb891d3f205ca62b37dd2bcfbe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::read_sensors</definition>
+        <argsstring>()</argsstring>
+        <name>read_sensors</name>
+        <briefdescription>
+<para>Reads sensor values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="88" column="14" bodyfile="Control.hpp" bodystart="88" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1aed5dc0e4fdd56d0ec702381312621021" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::set_main</definition>
+        <argsstring>()</argsstring>
+        <name>set_main</name>
+        <briefdescription>
+<para>Set the MainPage object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="101" column="14" bodyfile="Control.hpp" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1adaf3fe8dd3aaf78002e6e503c1f23e22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::start_loop</definition>
+        <argsstring>()</argsstring>
+        <name>start_loop</name>
+        <briefdescription>
+<para>Called at start of each loop. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="112" column="14" bodyfile="Control.hpp" bodystart="112" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1aa2a1011cfe047e8330a6852ed547a57c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::check_main_selection</definition>
+        <argsstring>()</argsstring>
+        <name>check_main_selection</name>
+        <briefdescription>
+<para>Checks main page selections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="144" column="14" bodyfile="Control.hpp" bodystart="144" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1a807915ec88892bea98fad7671f9e392f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_change_time</definition>
+        <argsstring>()</argsstring>
+        <name>run_change_time</name>
+        <briefdescription>
+<para>Runs change the time option of MainPage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="222" column="14" bodyfile="Control.hpp" bodystart="222" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1a647144da9f1e2ab6fa2420ff25cf1a01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_change_flags</definition>
+        <argsstring>()</argsstring>
+        <name>run_change_flags</name>
+        <briefdescription>
+<para>Runs change flags option of MainPage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="378" column="14" bodyfile="Control.hpp" bodystart="378" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1a7d2ec36b4a5213342eab667f36f0c27a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_settings</definition>
+        <argsstring>()</argsstring>
+        <name>run_settings</name>
+        <briefdescription>
+<para>Runs setting option of MainPage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="454" column="14" bodyfile="Control.hpp" bodystart="454" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1ad1f53a7f8ce6b9b44c1e61747a68b545" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_edit_peripherals</definition>
+        <argsstring>()</argsstring>
+        <name>run_edit_peripherals</name>
+        <briefdescription>
+<para>Runs edit peripherals option of MainPage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="511" column="14" bodyfile="Control.hpp" bodystart="511" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1adb44a8f92448f7c33f7fba70e8440f4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_home_page</definition>
+        <argsstring>()</argsstring>
+        <name>run_home_page</name>
+        <briefdescription>
+<para>Runs HomePage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="723" column="14" bodyfile="Control.hpp" bodystart="723" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1a35250f1e8e79a6cbb46f207e2e4bf14f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_main_page</definition>
+        <argsstring>()</argsstring>
+        <name>run_main_page</name>
+        <briefdescription>
+<para>Runs MainPage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="749" column="14" bodyfile="Control.hpp" bodystart="749" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1afe981a0b4f262d663a6567842b99f265" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_standby_page</definition>
+        <argsstring>()</argsstring>
+        <name>run_standby_page</name>
+        <briefdescription>
+<para>Runs Standby Page. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="796" column="14" bodyfile="Control.hpp" bodystart="796" bodyend="814"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1a534549b09cd985ce09a57f923bbe8743" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run_security_page</definition>
+        <argsstring>()</argsstring>
+        <name>run_security_page</name>
+        <briefdescription>
+<para>Runs security mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="820" column="14" bodyfile="Control.hpp" bodystart="820" bodyend="843"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classControl_1aa730aeda4517f40bc48ba1e46ebded77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Control::Control</definition>
+        <argsstring>()</argsstring>
+        <name>Control</name>
+        <briefdescription>
+<para>Construct a new Control object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="850" column="9" bodyfile="Control.hpp" bodystart="850" bodyend="870"/>
+      </memberdef>
+      <memberdef kind="function" id="classControl_1ac26f3964f9a0ad4f341384a4891d6489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Control::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+<para>Runs everything. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Control.hpp" line="876" column="14" bodyfile="Control.hpp" bodystart="876" bodyend="897"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Control class that manipulates everything. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Control</label>
+        <link refid="classControl"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-speaker</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-home_page</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-main_page</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>HomePage</label>
+        <link refid="classHomePage"/>
+      </node>
+      <node id="4">
+        <label>MainPage</label>
+        <link refid="classMainPage"/>
+      </node>
+      <node id="2">
+        <label>Speaker</label>
+        <link refid="classSpeaker"/>
+      </node>
+    </collaborationgraph>
+    <location file="Control.hpp" line="9" column="1" bodyfile="Control.hpp" bodystart="10" bodyend="898"/>
+    <listofallmembers>
+      <member refid="classControl_1aa2a1011cfe047e8330a6852ed547a57c" prot="private" virt="non-virtual"><scope>Control</scope><name>check_main_selection</name></member>
+      <member refid="classControl_1aa730aeda4517f40bc48ba1e46ebded77" prot="public" virt="non-virtual"><scope>Control</scope><name>Control</name></member>
+      <member refid="classControl_1a26e15346d2cc3a50160900487cd0af72" prot="private" virt="non-virtual"><scope>Control</scope><name>down_side</name></member>
+      <member refid="classControl_1acc7df03d15ecf08895992a742378b147" prot="private" virt="non-virtual"><scope>Control</scope><name>fsr_val</name></member>
+      <member refid="classControl_1a6adcd6f933bdc71c13d93daf0ae035cd" prot="private" virt="non-virtual"><scope>Control</scope><name>home_page</name></member>
+      <member refid="classControl_1aa5fdf1967a7f548ebcc58697d4c03dcf" prot="private" virt="non-virtual"><scope>Control</scope><name>ldr_val</name></member>
+      <member refid="classControl_1ad8f951981e7e1dbcea00960df8d923a0" prot="private" virt="non-virtual"><scope>Control</scope><name>left_side</name></member>
+      <member refid="classControl_1a647feca22e1c1179bc7e88f9720042d5" prot="private" virt="non-virtual"><scope>Control</scope><name>main_brightness</name></member>
+      <member refid="classControl_1a8e3b4fc2e6e5d59f646462db901052f4" prot="private" virt="non-virtual"><scope>Control</scope><name>main_page</name></member>
+      <member refid="classControl_1a852d470c5ddd00359fce9e633a88c15f" prot="private" virt="non-virtual"><scope>Control</scope><name>OPTION</name></member>
+      <member refid="classControl_1abd3f81bb891d3f205ca62b37dd2bcfbe" prot="private" virt="non-virtual"><scope>Control</scope><name>read_sensors</name></member>
+      <member refid="classControl_1ac26f3964f9a0ad4f341384a4891d6489" prot="public" virt="non-virtual"><scope>Control</scope><name>run</name></member>
+      <member refid="classControl_1a647144da9f1e2ab6fa2420ff25cf1a01" prot="private" virt="non-virtual"><scope>Control</scope><name>run_change_flags</name></member>
+      <member refid="classControl_1a807915ec88892bea98fad7671f9e392f" prot="private" virt="non-virtual"><scope>Control</scope><name>run_change_time</name></member>
+      <member refid="classControl_1ad1f53a7f8ce6b9b44c1e61747a68b545" prot="private" virt="non-virtual"><scope>Control</scope><name>run_edit_peripherals</name></member>
+      <member refid="classControl_1adb44a8f92448f7c33f7fba70e8440f4e" prot="private" virt="non-virtual"><scope>Control</scope><name>run_home_page</name></member>
+      <member refid="classControl_1a35250f1e8e79a6cbb46f207e2e4bf14f" prot="private" virt="non-virtual"><scope>Control</scope><name>run_main_page</name></member>
+      <member refid="classControl_1a534549b09cd985ce09a57f923bbe8743" prot="private" virt="non-virtual"><scope>Control</scope><name>run_security_page</name></member>
+      <member refid="classControl_1a7d2ec36b4a5213342eab667f36f0c27a" prot="private" virt="non-virtual"><scope>Control</scope><name>run_settings</name></member>
+      <member refid="classControl_1afe981a0b4f262d663a6567842b99f265" prot="private" virt="non-virtual"><scope>Control</scope><name>run_standby_page</name></member>
+      <member refid="classControl_1af90aa4b86428e15999ac01f40c38d184" prot="private" virt="non-virtual"><scope>Control</scope><name>seconds</name></member>
+      <member refid="classControl_1aed5dc0e4fdd56d0ec702381312621021" prot="private" virt="non-virtual"><scope>Control</scope><name>set_main</name></member>
+      <member refid="classControl_1af3f32b0528c3d5f3b09035444eee312e" prot="private" virt="non-virtual"><scope>Control</scope><name>speaker</name></member>
+      <member refid="classControl_1adaf3fe8dd3aaf78002e6e503c1f23e22" prot="private" virt="non-virtual"><scope>Control</scope><name>start_loop</name></member>
+      <member refid="classControl_1ae58c0bbd7d72410f04ab7f2624eec8a9" prot="private" virt="non-virtual"><scope>Control</scope><name>STATE</name></member>
+      <member refid="classControl_1a8363da9768eafec0a7c2b78a25394d77" prot="private" virt="non-virtual"><scope>Control</scope><name>tmp_val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

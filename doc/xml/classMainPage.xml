@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classMainPage" kind="class" language="C++" prot="public">
+    <compoundname>MainPage</compoundname>
+    <includes refid="MainPage_8hpp" local="yes">MainPage.hpp</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMainPage_1a5e59e082c5657471fcb71b01dc4df015" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MainPage::convert_int</definition>
+        <argsstring>(int a)</argsstring>
+        <name>convert_int</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Converts int to spaced string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="17" column="21" bodyfile="MainPage.hpp" bodystart="17" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1aaa801677d1db9ac742ed5b7ab1c048a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MainPage::get_number_of_days</definition>
+        <argsstring>(int month, int year)</argsstring>
+        <name>get_number_of_days</name>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Will return total number of days. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="35" column="16" bodyfile="MainPage.hpp" bodystart="35" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMainPage_1a1b6d169c5298d294176ad110da0135da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::show_page</definition>
+        <argsstring>()</argsstring>
+        <name>show_page</name>
+        <briefdescription>
+<para>Shows the page. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="59" column="14" bodyfile="MainPage.hpp" bodystart="59" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a1f3d4412334a67c58410a8a1e9b69ffb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::show_change_time_options</definition>
+        <argsstring>(int choice)</argsstring>
+        <name>show_change_time_options</name>
+        <param>
+          <type>int</type>
+          <declname>choice</declname>
+        </param>
+        <briefdescription>
+<para>Shows change time/date options. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="93" column="14" bodyfile="MainPage.hpp" bodystart="93" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1aa9f15a590b2699508231092e8395fe73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MainPage::show_change_date</definition>
+        <argsstring>(int choice, int preva, int prevb)</argsstring>
+        <name>show_change_date</name>
+        <param>
+          <type>int</type>
+          <declname>choice</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>preva</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prevb</declname>
+        </param>
+        <briefdescription>
+<para>Shows change date option. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prevb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="118" column="13" bodyfile="MainPage.hpp" bodystart="118" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a0bf52aab50157e604cf77130e796d449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MainPage::show_change_time</definition>
+        <argsstring>(int choice, int prev)</argsstring>
+        <name>show_change_time</name>
+        <param>
+          <type>int</type>
+          <declname>choice</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prev</declname>
+        </param>
+        <briefdescription>
+<para>Shows change time option. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="163" column="13" bodyfile="MainPage.hpp" bodystart="163" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1aec1ada6666869ce9b43390cf7a50ed6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::select_change_time</definition>
+        <argsstring>()</argsstring>
+        <name>select_change_time</name>
+        <briefdescription>
+<para>Selects which change date/time option. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="189" column="14" bodyfile="MainPage.hpp" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a804eb3c90a6c114dde3c678491648865" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MainPage::show_change_flags</definition>
+        <argsstring>(int choice, bool preva, bool prevb)</argsstring>
+        <name>show_change_flags</name>
+        <param>
+          <type>int</type>
+          <declname>choice</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preva</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prevb</declname>
+        </param>
+        <briefdescription>
+<para>Shows change flags option. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prevb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="203" column="14" bodyfile="MainPage.hpp" bodystart="203" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a22828aeb0158a90d95646ce61b6a57d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::select_change_flags</definition>
+        <argsstring>()</argsstring>
+        <name>select_change_flags</name>
+        <briefdescription>
+<para>Shows select change flags. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="299" column="14" bodyfile="MainPage.hpp" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a226c664969cc4869354daab1aee2a992" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MainPage::show_settings</definition>
+        <argsstring>(int choice, float prev)</argsstring>
+        <name>show_settings</name>
+        <param>
+          <type>int</type>
+          <declname>choice</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>prev</declname>
+        </param>
+        <briefdescription>
+<para>SHows change settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="311" column="15" bodyfile="MainPage.hpp" bodystart="311" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a454f25059ee6f5d927fca75a00aaf851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::select_settings</definition>
+        <argsstring>()</argsstring>
+        <name>select_settings</name>
+        <briefdescription>
+<para>Shows select settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="350" column="14" bodyfile="MainPage.hpp" bodystart="350" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a96475a23c897bd3d54a05dd9c762c1da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::show_edit_peripherals</definition>
+        <argsstring>(int choice)</argsstring>
+        <name>show_edit_peripherals</name>
+        <param>
+          <type>int</type>
+          <declname>choice</declname>
+        </param>
+        <briefdescription>
+<para>Shows edit peripheral options. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="360" column="14" bodyfile="MainPage.hpp" bodystart="360" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1a4b5c4db2016188ae20faefcc0dbc00c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::show_adjust_peripherals</definition>
+        <argsstring>(std::vector&lt; bool &gt; &amp;choice, std::vector&lt; bool &gt; &amp;periph, int type)</argsstring>
+        <name>show_adjust_peripherals</name>
+        <param>
+          <type>std::vector&lt; bool &gt; &amp;</type>
+          <declname>choice</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; bool &gt; &amp;</type>
+          <declname>periph</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Shows adjusting peripherals. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>periph</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="395" column="14" bodyfile="MainPage.hpp" bodystart="395" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainPage_1acf8335a73d9cfb2403bdba5a397d1efa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPage::select_edit_peripherals</definition>
+        <argsstring>()</argsstring>
+        <name>select_edit_peripherals</name>
+        <briefdescription>
+<para>Shows select edit peripherals. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainPage.hpp" line="458" column="14" bodyfile="MainPage.hpp" bodystart="458" bodyend="461"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Main Page class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MainPage</label>
+        <link refid="classMainPage"/>
+      </node>
+    </collaborationgraph>
+    <location file="MainPage.hpp" line="8" column="1" bodyfile="MainPage.hpp" bodystart="9" bodyend="463"/>
+    <listofallmembers>
+      <member refid="classMainPage_1a5e59e082c5657471fcb71b01dc4df015" prot="private" virt="non-virtual"><scope>MainPage</scope><name>convert_int</name></member>
+      <member refid="classMainPage_1aaa801677d1db9ac742ed5b7ab1c048a5" prot="private" virt="non-virtual"><scope>MainPage</scope><name>get_number_of_days</name></member>
+      <member refid="classMainPage_1a22828aeb0158a90d95646ce61b6a57d2" prot="public" virt="non-virtual"><scope>MainPage</scope><name>select_change_flags</name></member>
+      <member refid="classMainPage_1aec1ada6666869ce9b43390cf7a50ed6f" prot="public" virt="non-virtual"><scope>MainPage</scope><name>select_change_time</name></member>
+      <member refid="classMainPage_1acf8335a73d9cfb2403bdba5a397d1efa" prot="public" virt="non-virtual"><scope>MainPage</scope><name>select_edit_peripherals</name></member>
+      <member refid="classMainPage_1a454f25059ee6f5d927fca75a00aaf851" prot="public" virt="non-virtual"><scope>MainPage</scope><name>select_settings</name></member>
+      <member refid="classMainPage_1a4b5c4db2016188ae20faefcc0dbc00c2" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_adjust_peripherals</name></member>
+      <member refid="classMainPage_1aa9f15a590b2699508231092e8395fe73" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_change_date</name></member>
+      <member refid="classMainPage_1a804eb3c90a6c114dde3c678491648865" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_change_flags</name></member>
+      <member refid="classMainPage_1a0bf52aab50157e604cf77130e796d449" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_change_time</name></member>
+      <member refid="classMainPage_1a1f3d4412334a67c58410a8a1e9b69ffb" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_change_time_options</name></member>
+      <member refid="classMainPage_1a96475a23c897bd3d54a05dd9c762c1da" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_edit_peripherals</name></member>
+      <member refid="classMainPage_1a1b6d169c5298d294176ad110da0135da" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_page</name></member>
+      <member refid="classMainPage_1a226c664969cc4869354daab1aee2a992" prot="public" virt="non-virtual"><scope>MainPage</scope><name>show_settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

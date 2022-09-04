@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="Variables_8hpp" kind="file" language="C++">
+    <compoundname>Variables.hpp</compoundname>
+    <includes local="yes">mbed.h</includes>
+    <includes local="yes">Joystick.h</includes>
+    <includes local="yes">N5110.h</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">cstdio</includes>
+    <includes local="no">cstdlib</includes>
+    <includes local="no">ctime</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">string</includes>
+    <includedby refid="Speaker_8hpp" local="yes">Speaker.hpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Variables.hpp</label>
+        <link refid="Variables_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Joystick.h</label>
+      </node>
+      <node id="4">
+        <label>N5110.h</label>
+      </node>
+      <node id="5">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstdio</label>
+      </node>
+      <node id="7">
+        <label>cstdlib</label>
+      </node>
+      <node id="8">
+        <label>ctime</label>
+      </node>
+      <node id="2">
+        <label>mbed.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>Control.hpp</label>
+        <link refid="Control_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>HomePage.hpp</label>
+        <link refid="HomePage_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MainPage.hpp</label>
+        <link refid="MainPage_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Speaker.hpp</label>
+        <link refid="Speaker_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Variables.hpp</label>
+        <link refid="Variables_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Variables_8hpp_1aecd69d9a67487cc45c38eb184c50538a" prot="public" static="no">
+        <name>SP</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="12" column="9" bodyfile="Variables.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Variables_8hpp_1ab833b755eb010c020fb1098e8f5ecdd6" prot="public" static="no">
+        <name>LEN</name>
+        <param><defname>arr</defname></param>
+        <initializer>((int) (sizeof (arr) / sizeof (arr)[0]))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="13" column="9" bodyfile="Variables.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Variables_8hpp_1aef72fe86b7c60b1a86920496456edeac" prot="public" static="no">
+        <name>WAIT</name>
+        <initializer>200ms</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="14" column="9" bodyfile="Variables.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Variables_8hpp_1aed8ea54a2630aaf2ae3f2bd5fa886959" prot="public" static="no">
+        <name>MAX_TEMP</name>
+        <initializer>(float) 35.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="15" column="9" bodyfile="Variables.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Variables_8hpp_1a2522d2568f63855838c3ecfb44084710" prot="public" static="no">
+        <name>MIN_TEMP</name>
+        <initializer>(float) 5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="16" column="9" bodyfile="Variables.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Variables_8hpp_1a1c04f26ac948092ee084b2bab93c170d" prot="public" static="no">
+        <name>N_LIGHTS</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="17" column="9" bodyfile="Variables.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Variables_8hpp_1a4442a29ba7f1b1e5a46983bd29723551" prot="public" static="no">
+        <name>N_DEVICES</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="18" column="9" bodyfile="Variables.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Variables_8hpp_1a02abcba8d46152f589c1252598d8eac7" prot="public" static="no">
+        <name>N_APPLIANCES</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="19" column="9" bodyfile="Variables.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>State</name>
+        <enumvalue id="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a8f280224da64e98f2d52d50ec43bc197" prot="public">
+          <name>HOME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a41c6eb506ccf657cc7e958c8e8c769cd" prot="public">
+          <name>MAIN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8ae4634ae4352b512b38c5da9dc1610ca6" prot="public">
+          <name>STANDBY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a1f086547f14eb82024dea582d0424ab1" prot="public">
+          <name>SECURITY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>pages states </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="129" column="1" bodyfile="Variables.hpp" bodystart="130" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="enum" id="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Options</name>
+        <enumvalue id="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99a281d86a94f0f25544e272dbcdfe92c71" prot="public">
+          <name>CHANGE_TIME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99af6f5c3b541594965177862ce4c00c618" prot="public">
+          <name>CHANGE_FLAG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99ac678338caea29d77d56be2ea56325610" prot="public">
+          <name>SETTINGS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99a24fbe0fa49f3d0553c71b0f666c186e2" prot="public">
+          <name>EDIT_PERIPHERALS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>MainPage options. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="141" column="1" bodyfile="Variables.hpp" bodystart="142" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="Variables_8hpp_1a75e3e4e9412bd7c5108568da754aa590" prot="public" static="no" mutable="no">
+        <type>PwmOut</type>
+        <definition>PwmOut lights_out[N_LIGHTS]</definition>
+        <argsstring>[N_LIGHTS]</argsstring>
+        <name>lights_out</name>
+        <initializer>= {PwmOut(PC_8), PwmOut(PC_6), PwmOut(PB_8)}</initializer>
+        <briefdescription>
+<para>Output lights. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="116" column="8" bodyfile="Variables.hpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1a985791a123b40eb274d204fd592d8583" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int right_arrow[7][8]</definition>
+        <argsstring>[7][8]</argsstring>
+        <name>right_arrow</name>
+        <initializer>= {
+    {1,0,0,0,1,0,0,0},
+    {1,1,0,0,1,1,0,0},
+    {1,1,1,0,1,1,1,0},
+    {1,1,1,1,1,1,1,1},
+    {1,1,1,0,1,1,1,0},
+    {1,1,0,0,1,1,0,0},
+    {1,0,0,0,1,0,0,0}
+}</initializer>
+        <briefdescription>
+<para>Right arrow icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="153" column="11" bodyfile="Variables.hpp" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1a6d7aee2144ebb0bb511195358ddbc8d6" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int home_icon[7][7]</definition>
+        <argsstring>[7][7]</argsstring>
+        <name>home_icon</name>
+        <initializer>= {
+    {0,0,0,1,0,0,0},
+    {0,0,1,1,1,0,0},
+    {0,1,1,1,1,1,0},
+    {1,0,0,0,0,0,1},
+    {1,0,1,1,1,0,1},
+    {1,0,1,0,1,0,1},
+    {1,1,1,1,1,1,1}
+}</initializer>
+        <briefdescription>
+<para>Home icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="167" column="11" bodyfile="Variables.hpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1a2032625d696dd5c944e274809291e751" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int light_icon[7][9]</definition>
+        <argsstring>[7][9]</argsstring>
+        <name>light_icon</name>
+        <initializer>= {
+    {0,0,1,1,1,0,0,0,0},
+    {0,1,0,0,0,1,0,0,0},
+    {1,0,1,0,1,0,1,0,1},
+    {1,0,1,1,1,0,1,0,0},
+    {0,1,1,0,1,1,0,0,1},
+    {0,0,1,1,1,0,0,0,0},
+    {0,0,1,1,1,0,0,0,0}
+}</initializer>
+        <briefdescription>
+<para>Light bulb icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="181" column="11" bodyfile="Variables.hpp" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1a399b34e6b854cb173de807e033bea79f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int ac_icon[7][11]</definition>
+        <argsstring>[7][11]</argsstring>
+        <name>ac_icon</name>
+        <initializer>= {
+    {0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,0,0},
+    {1,0,0,0,0,0,0,0,1,0,1},
+    {1,0,0,1,1,1,0,0,1,0,0},
+    {1,1,1,1,1,1,1,1,1,0,1},
+    {0,1,0,1,0,1,0,1,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0}
+}</initializer>
+        <briefdescription>
+<para>AC icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="195" column="11" bodyfile="Variables.hpp" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1a8b829000dd225c37daa1429554d94bb5" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int false_icon[7][7]</definition>
+        <argsstring>[7][7]</argsstring>
+        <name>false_icon</name>
+        <initializer>= {
+    {0,0,0,0,0,0,0},
+    {0,1,0,0,0,1,0},
+    {0,0,1,0,1,0,0},
+    {0,0,0,1,0,0,0},
+    {0,0,1,0,1,0,0},
+    {0,1,0,0,0,1,0},
+    {0,0,0,0,0,0,0}
+}</initializer>
+        <briefdescription>
+<para>False icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="209" column="11" bodyfile="Variables.hpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1ad32d0c34b97a427ee1c29ea817976fb8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int correct_icon[7][9]</definition>
+        <argsstring>[7][9]</argsstring>
+        <name>correct_icon</name>
+        <initializer>= {
+    {0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,1},
+    {0,0,0,0,0,0,0,1,0},
+    {1,0,0,0,0,0,1,0,0},
+    {0,1,0,0,0,1,0,0,0},
+    {0,0,1,1,1,0,0,0,0},
+    {0,0,0,1,0,0,0,0,0}
+}</initializer>
+        <briefdescription>
+<para>Correct icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="223" column="11" bodyfile="Variables.hpp" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1aec38c4fb4bb5107a26d3ce216a2cf561" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int lock_icon[7][10]</definition>
+        <argsstring>[7][10]</argsstring>
+        <name>lock_icon</name>
+        <initializer>= {
+    {0,0,0,1,1,0,0,0,0,0},
+    {0,0,1,0,0,1,0,0,0,0},
+    {0,1,1,1,1,1,1,0,0,1},
+    {1,0,0,1,1,0,0,1,0,0},
+    {1,0,1,0,0,1,0,1,0,1},
+    {1,0,0,1,1,0,0,1,0,0},
+    {0,1,1,1,1,1,1,0,0,0}
+}</initializer>
+        <briefdescription>
+<para>Lock icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="237" column="11" bodyfile="Variables.hpp" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1a744470c6f0debe5ddae75ae319a83149" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int left_arrow[7][8]</definition>
+        <argsstring>[7][8]</argsstring>
+        <name>left_arrow</name>
+        <initializer>= {
+    {0,0,0,1,0,0,0,1},
+    {0,0,1,1,0,0,1,1},
+    {0,1,1,1,0,1,1,1},
+    {1,1,1,1,1,1,1,1},
+    {0,1,1,1,0,1,1,1},
+    {0,0,1,1,0,0,1,1},
+    {0,0,0,1,0,0,0,1}
+}</initializer>
+        <briefdescription>
+<para>Left arrow icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="251" column="11" bodyfile="Variables.hpp" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Variables_8hpp_1a32a70ce946db008918ae708968de72c5" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int main_icon[7][7]</definition>
+        <argsstring>[7][7]</argsstring>
+        <name>main_icon</name>
+        <initializer>= {
+    {1,0,0,1,0,0,1},
+    {0,1,1,1,1,1,0},
+    {0,1,0,1,0,1,0},
+    {1,1,1,1,1,1,1},
+    {0,1,0,1,0,1,0},
+    {0,1,1,1,1,1,0},
+    {1,0,0,1,0,0,1}
+}</initializer>
+        <briefdescription>
+<para>MainPage icon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="265" column="11" bodyfile="Variables.hpp" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="Variables_8hpp_1a789e43fa83965995163a12fbf031f6c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BufferedSerial</type>
+        <definition>BufferedSerial pc</definition>
+        <argsstring>(USBTX, USBRX)</argsstring>
+        <name>pc</name>
+        <param>
+          <type>USBTX</type>
+        </param>
+        <param>
+          <type>USBRX</type>
+        </param>
+        <briefdescription>
+<para>Used to print on screen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BufferedSerial </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="26" column="16" declfile="Variables.hpp" declline="26" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1af39cb80f5baf6dfca31bd7f16f68d53d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Joystick</type>
+        <definition>Joystick joystick</definition>
+        <argsstring>(PC_3, PC_2)</argsstring>
+        <name>joystick</name>
+        <param>
+          <type>PC_3</type>
+        </param>
+        <param>
+          <type>PC_2</type>
+        </param>
+        <briefdescription>
+<para>Joystick object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Joystick </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="33" column="10" declfile="Variables.hpp" declline="33" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a5ef82a440147f8a4c9b4f244bd814579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>N5110</type>
+        <definition>N5110 lcd</definition>
+        <argsstring>(PC_7, PA_9, PB_10, PB_5, PB_3, PA_10)</argsstring>
+        <name>lcd</name>
+        <param>
+          <type>PC_7</type>
+        </param>
+        <param>
+          <type>PA_9</type>
+        </param>
+        <param>
+          <type>PB_10</type>
+        </param>
+        <param>
+          <type>PB_5</type>
+        </param>
+        <param>
+          <type>PB_3</type>
+        </param>
+        <param>
+          <type>PA_10</type>
+        </param>
+        <briefdescription>
+<para>LCD Object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>N5110 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="40" column="7" declfile="Variables.hpp" declline="40" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1afd444b9c6672a0255eb9a4cd2f282abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DigitalIn</type>
+        <definition>DigitalIn right_button</definition>
+        <argsstring>(PC_10)</argsstring>
+        <name>right_button</name>
+        <param>
+          <type>PC_10</type>
+        </param>
+        <briefdescription>
+<para>Right button. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>DigitalIn </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="47" column="11" declfile="Variables.hpp" declline="47" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1aee8b3dce7acf28b2c8bd5120a3c9c8fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DigitalIn</type>
+        <definition>DigitalIn left_button</definition>
+        <argsstring>(PC_12)</argsstring>
+        <name>left_button</name>
+        <param>
+          <type>PC_12</type>
+        </param>
+        <briefdescription>
+<para>Left button. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>DigitalIn </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="54" column="11" declfile="Variables.hpp" declline="54" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a340807570a2f28069d493b7c34a886bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DigitalIn</type>
+        <definition>DigitalIn main_button</definition>
+        <argsstring>(PC_11)</argsstring>
+        <name>main_button</name>
+        <param>
+          <type>PC_11</type>
+        </param>
+        <briefdescription>
+<para>Main button. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>DigitalIn </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="61" column="11" declfile="Variables.hpp" declline="61" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a76e1a7c4383670c2ffcbae77135d46c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>AnalogIn</type>
+        <definition>AnalogIn pot</definition>
+        <argsstring>(PC_0)</argsstring>
+        <name>pot</name>
+        <param>
+          <type>PC_0</type>
+        </param>
+        <briefdescription>
+<para>Potentiometer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>AnalogIn </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="68" column="10" declfile="Variables.hpp" declline="68" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a743ec82ffa6d9407472964fc15275d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>AnalogIn</type>
+        <definition>AnalogIn ldr_sensor</definition>
+        <argsstring>(PA_1)</argsstring>
+        <name>ldr_sensor</name>
+        <param>
+          <type>PA_1</type>
+        </param>
+        <briefdescription>
+<para>LDR sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>AnalogIn </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="75" column="10" declfile="Variables.hpp" declline="75" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a142e6caa413f36c9cf1e51b455f23a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>AnalogIn</type>
+        <definition>AnalogIn tmp_sensor</definition>
+        <argsstring>(PA_0)</argsstring>
+        <name>tmp_sensor</name>
+        <param>
+          <type>PA_0</type>
+        </param>
+        <briefdescription>
+<para>Tempreature sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>AnalogIn </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="82" column="10" declfile="Variables.hpp" declline="82" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a975a4c7b9a96dc00481652f3971b3e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>AnalogIn</type>
+        <definition>AnalogIn fsr_sensor</definition>
+        <argsstring>(PA_4)</argsstring>
+        <name>fsr_sensor</name>
+        <param>
+          <type>PA_4</type>
+        </param>
+        <briefdescription>
+<para>FSR. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>AnalogIn </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="89" column="10" declfile="Variables.hpp" declline="89" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a485b2a5d4f67110046d89ae1d6d37a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PwmOut</type>
+        <definition>PwmOut buzzer</definition>
+        <argsstring>(PA_15)</argsstring>
+        <name>buzzer</name>
+        <param>
+          <type>PA_15</type>
+        </param>
+        <briefdescription>
+<para>Buzzer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PwmOut </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="96" column="8" declfile="Variables.hpp" declline="96" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1ac92d91673f4bc6d1d7731cf2f832de32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BusOut</type>
+        <definition>BusOut devices_out</definition>
+        <argsstring>(PA_12, PA_11)</argsstring>
+        <name>devices_out</name>
+        <param>
+          <type>PA_12</type>
+        </param>
+        <param>
+          <type>PA_11</type>
+        </param>
+        <briefdescription>
+<para>Output devices. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BusOut </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="103" column="8" declfile="Variables.hpp" declline="103" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1a567c82946ed50c06ec15d7436377d0c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BusOut</type>
+        <definition>BusOut appliances_out</definition>
+        <argsstring>(PB_15, PB_14, PB_13)</argsstring>
+        <name>appliances_out</name>
+        <param>
+          <type>PB_15</type>
+        </param>
+        <param>
+          <type>PB_14</type>
+        </param>
+        <param>
+          <type>PB_13</type>
+        </param>
+        <briefdescription>
+<para>Output appliances. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BusOut </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="110" column="8" declfile="Variables.hpp" declline="110" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="Variables_8hpp_1af654bed7ea3fdeab141248ad96749ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PwmOut</type>
+        <definition>PwmOut ac_out</definition>
+        <argsstring>(PC_9)</argsstring>
+        <name>ac_out</name>
+        <param>
+          <type>PC_9</type>
+        </param>
+        <briefdescription>
+<para>AC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PwmOut </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Variables.hpp" line="123" column="8" declfile="Variables.hpp" declline="123" declcolumn="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;mbed.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Joystick.h&quot;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;N5110.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdio&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdlib&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ctime&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="Variables_8hpp_1aecd69d9a67487cc45c38eb184c50538a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SP<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="Variables_8hpp_1ab833b755eb010c020fb1098e8f5ecdd6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LEN(arr)<sp/>((int)<sp/>(sizeof<sp/>(arr)<sp/>/<sp/>sizeof<sp/>(arr)[0]))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="Variables_8hpp_1aef72fe86b7c60b1a86920496456edeac" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WAIT<sp/>200ms</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="Variables_8hpp_1aed8ea54a2630aaf2ae3f2bd5fa886959" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_TEMP<sp/>(float)<sp/>35.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="Variables_8hpp_1a2522d2568f63855838c3ecfb44084710" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MIN_TEMP<sp/>(float)<sp/>5.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="Variables_8hpp_1a1c04f26ac948092ee084b2bab93c170d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>N_LIGHTS<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="Variables_8hpp_1a4442a29ba7f1b1e5a46983bd29723551" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>N_DEVICES<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="Variables_8hpp_1a02abcba8d46152f589c1252598d8eac7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>N_APPLIANCES<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="Variables_8hpp_1a789e43fa83965995163a12fbf031f6c8" refkind="member"><highlight class="normal">BufferedSerial<sp/><ref refid="Variables_8hpp_1a789e43fa83965995163a12fbf031f6c8" kindref="member">pc</ref>(USBTX,<sp/>USBRX);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="Variables_8hpp_1af39cb80f5baf6dfca31bd7f16f68d53d" refkind="member"><highlight class="normal">Joystick<sp/><ref refid="Variables_8hpp_1af39cb80f5baf6dfca31bd7f16f68d53d" kindref="member">joystick</ref>(PC_3,<sp/>PC_2);<sp/><sp/></highlight><highlight class="comment">//attach<sp/>and<sp/>create<sp/>joystick<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="Variables_8hpp_1a5ef82a440147f8a4c9b4f244bd814579" refkind="member"><highlight class="normal">N5110<sp/><ref refid="Variables_8hpp_1a5ef82a440147f8a4c9b4f244bd814579" kindref="member">lcd</ref>(PC_7,<sp/>PA_9,<sp/>PB_10,<sp/>PB_5,<sp/>PB_3,<sp/>PA_10);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="Variables_8hpp_1afd444b9c6672a0255eb9a4cd2f282abc" refkind="member"><highlight class="normal">DigitalIn<sp/><ref refid="Variables_8hpp_1afd444b9c6672a0255eb9a4cd2f282abc" kindref="member">right_button</ref>(PC_10);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="Variables_8hpp_1aee8b3dce7acf28b2c8bd5120a3c9c8fd" refkind="member"><highlight class="normal">DigitalIn<sp/><ref refid="Variables_8hpp_1aee8b3dce7acf28b2c8bd5120a3c9c8fd" kindref="member">left_button</ref>(PC_12);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="Variables_8hpp_1a340807570a2f28069d493b7c34a886bc" refkind="member"><highlight class="normal">DigitalIn<sp/><ref refid="Variables_8hpp_1a340807570a2f28069d493b7c34a886bc" kindref="member">main_button</ref>(PC_11);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="Variables_8hpp_1a76e1a7c4383670c2ffcbae77135d46c5" refkind="member"><highlight class="normal">AnalogIn<sp/><ref refid="Variables_8hpp_1a76e1a7c4383670c2ffcbae77135d46c5" kindref="member">pot</ref>(PC_0);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="Variables_8hpp_1a743ec82ffa6d9407472964fc15275d0a" refkind="member"><highlight class="normal">AnalogIn<sp/><ref refid="Variables_8hpp_1a743ec82ffa6d9407472964fc15275d0a" kindref="member">ldr_sensor</ref>(PA_1);<sp/></highlight><highlight class="comment">//LDR<sp/>pin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="Variables_8hpp_1a142e6caa413f36c9cf1e51b455f23a02" refkind="member"><highlight class="normal">AnalogIn<sp/><ref refid="Variables_8hpp_1a142e6caa413f36c9cf1e51b455f23a02" kindref="member">tmp_sensor</ref>(PA_0);<sp/></highlight><highlight class="comment">//TEMP<sp/>Sensor<sp/>pin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="Variables_8hpp_1a975a4c7b9a96dc00481652f3971b3e92" refkind="member"><highlight class="normal">AnalogIn<sp/><ref refid="Variables_8hpp_1a975a4c7b9a96dc00481652f3971b3e92" kindref="member">fsr_sensor</ref>(PA_4);<sp/></highlight><highlight class="comment">//Force<sp/>sensor<sp/>pin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="Variables_8hpp_1a485b2a5d4f67110046d89ae1d6d37a16" refkind="member"><highlight class="normal">PwmOut<sp/><ref refid="Variables_8hpp_1a485b2a5d4f67110046d89ae1d6d37a16" kindref="member">buzzer</ref>(PA_15);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="Variables_8hpp_1ac92d91673f4bc6d1d7731cf2f832de32" refkind="member"><highlight class="normal">BusOut<sp/><ref refid="Variables_8hpp_1ac92d91673f4bc6d1d7731cf2f832de32" kindref="member">devices_out</ref>(PA_12,<sp/>PA_11);<sp/></highlight><highlight class="comment">//<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="Variables_8hpp_1a567c82946ed50c06ec15d7436377d0c0" refkind="member"><highlight class="normal">BusOut<sp/><ref refid="Variables_8hpp_1a567c82946ed50c06ec15d7436377d0c0" kindref="member">appliances_out</ref>(PB_15,<sp/>PB_14,<sp/>PB_13);<sp/></highlight><highlight class="comment">//<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="Variables_8hpp_1a75e3e4e9412bd7c5108568da754aa590" refkind="member"><highlight class="normal">PwmOut<sp/><ref refid="Variables_8hpp_1a75e3e4e9412bd7c5108568da754aa590" kindref="member">lights_out</ref>[<ref refid="Variables_8hpp_1a1c04f26ac948092ee084b2bab93c170d" kindref="member">N_LIGHTS</ref>]<sp/>=<sp/>{PwmOut(PC_8),<sp/>PwmOut(PC_6),<sp/>PwmOut(PB_8)};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="Variables_8hpp_1af654bed7ea3fdeab141248ad96749ee4" refkind="member"><highlight class="normal">PwmOut<sp/><ref refid="Variables_8hpp_1af654bed7ea3fdeab141248ad96749ee4" kindref="member">ac_out</ref>(PC_9);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8" kindref="member">State</ref></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131" refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a8f280224da64e98f2d52d50ec43bc197" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a8f280224da64e98f2d52d50ec43bc197" kindref="member">HOME</ref>,</highlight></codeline>
+<codeline lineno="132" refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a41c6eb506ccf657cc7e958c8e8c769cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a41c6eb506ccf657cc7e958c8e8c769cd" kindref="member">MAIN</ref>,</highlight></codeline>
+<codeline lineno="133" refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8ae4634ae4352b512b38c5da9dc1610ca6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8ae4634ae4352b512b38c5da9dc1610ca6" kindref="member">STANDBY</ref>,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a1f086547f14eb82024dea582d0424ab1" kindref="member">SECURITY</ref></highlight></codeline>
+<codeline lineno="135" refid="Variables_8hpp_1a5d74787dedbc4e11c1ab15bf487e61f8a1f086547f14eb82024dea582d0424ab1" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99" kindref="member">Options</ref></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143" refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99a281d86a94f0f25544e272dbcdfe92c71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99a281d86a94f0f25544e272dbcdfe92c71" kindref="member">CHANGE_TIME</ref>,<sp/></highlight><highlight class="comment">//<sp/>change<sp/>time<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99af6f5c3b541594965177862ce4c00c618" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99af6f5c3b541594965177862ce4c00c618" kindref="member">CHANGE_FLAG</ref>,<sp/></highlight><highlight class="comment">//<sp/>change<sp/>flags</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99ac678338caea29d77d56be2ea56325610" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99ac678338caea29d77d56be2ea56325610" kindref="member">SETTINGS</ref>,<sp/></highlight><highlight class="comment">//<sp/>brightness<sp/>and<sp/>ac<sp/>temp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99a24fbe0fa49f3d0553c71b0f666c186e2" kindref="member">EDIT_PERIPHERALS</ref><sp/></highlight><highlight class="comment">//<sp/>edit<sp/>peripherals</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="Variables_8hpp_1adf7c3ac791f996a56160a12f379cbd99a24fbe0fa49f3d0553c71b0f666c186e2" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="Variables_8hpp_1a985791a123b40eb274d204fd592d8583" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a985791a123b40eb274d204fd592d8583" kindref="member">right_arrow</ref>[7][8]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,0,1,0,0,0},</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,0,0,1,1,0,0},</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,0,1,1,1,0},</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,1,1,1,1,1},</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,0,1,1,1,0},</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,0,0,1,1,0,0},</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,0,1,0,0,0}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="Variables_8hpp_1a6d7aee2144ebb0bb511195358ddbc8d6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a6d7aee2144ebb0bb511195358ddbc8d6" kindref="member">home_icon</ref>[7][7]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,1,0,0,0},</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,1,1,0,0},</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,1,1,1,0},</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,0,0,0,1},</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,1,1,1,0,1},</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,1,0,1,0,1},</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,1,1,1,1}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="Variables_8hpp_1a2032625d696dd5c944e274809291e751" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a2032625d696dd5c944e274809291e751" kindref="member">light_icon</ref>[7][9]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,1,1,0,0,0,0},</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,0,0,0,1,0,0,0},</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,1,0,1,0,1,0,1},</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,1,1,1,0,1,0,0},</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,0,1,1,0,0,1},</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,1,1,0,0,0,0},</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,1,1,0,0,0,0}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="Variables_8hpp_1a399b34e6b854cb173de807e033bea79f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a399b34e6b854cb173de807e033bea79f" kindref="member">ac_icon</ref>[7][11]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,0,0,0,0,0,0,0,0},</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,1,1,1,1,1,1,0,0},</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,0,0,0,0,0,1,0,1},</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,1,1,1,0,0,1,0,0},</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,1,1,1,1,1,1,0,1},</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,0,1,0,1,0,1,0,0,0},</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,0,0,0,0,0,0,0,0}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="Variables_8hpp_1a8b829000dd225c37daa1429554d94bb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a8b829000dd225c37daa1429554d94bb5" kindref="member">false_icon</ref>[7][7]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,0,0,0,0},</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,0,0,0,1,0},</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,0,1,0,0},</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,1,0,0,0},</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,0,1,0,0},</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,0,0,0,1,0},</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,0,0,0,0}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="Variables_8hpp_1ad32d0c34b97a427ee1c29ea817976fb8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1ad32d0c34b97a427ee1c29ea817976fb8" kindref="member">correct_icon</ref>[7][9]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,0,0,0,0,0,0},</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,0,0,0,0,0,1},</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,0,0,0,0,1,0},</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,0,0,0,1,0,0},</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,0,0,0,1,0,0,0},</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,1,1,0,0,0,0},</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,1,0,0,0,0,0}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="Variables_8hpp_1aec38c4fb4bb5107a26d3ce216a2cf561" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1aec38c4fb4bb5107a26d3ce216a2cf561" kindref="member">lock_icon</ref>[7][10]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,1,1,0,0,0,0,0},</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,0,0,1,0,0,0,0},</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,1,1,1,1,0,0,1},</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,1,1,0,0,1,0,0},</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,1,0,0,1,0,1,0,1},</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,1,1,0,0,1,0,0},</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,1,1,1,1,0,0,0}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="Variables_8hpp_1a744470c6f0debe5ddae75ae319a83149" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a744470c6f0debe5ddae75ae319a83149" kindref="member">left_arrow</ref>[7][8]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,1,0,0,0,1},</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,1,0,0,1,1},</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,1,0,1,1,1},</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,1,1,1,1,1},</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,1,0,1,1,1},</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,1,1,0,0,1,1},</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,0,0,1,0,0,0,1}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="Variables_8hpp_1a32a70ce946db008918ae708968de72c5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Variables_8hpp_1a32a70ce946db008918ae708968de72c5" kindref="member">main_icon</ref>[7][7]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,1,0,0,1},</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,1,1,1,0},</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,0,1,0,1,0},</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,1,1,1,1,1,1},</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,0,1,0,1,0},</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>{0,1,1,1,1,1,0},</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{1,0,0,1,0,0,1}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Variables.hpp"/>
+  </compounddef>
+</doxygen>

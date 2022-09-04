@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classHomePage" kind="class" language="C++" prot="public">
+    <compoundname>HomePage</compoundname>
+    <includes refid="HomePage_8hpp" local="yes">HomePage.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHomePage_1aa828d83fe76aee0e4c1220f83fce8e6d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HomePage::total_appliances</definition>
+        <argsstring></argsstring>
+        <name>total_appliances</name>
+        <briefdescription>
+<para>Total number of appliaces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="15" column="13" bodyfile="HomePage.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1ad3f27921f726c992a353b257d00ac3c8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HomePage::operating_appliances</definition>
+        <argsstring></argsstring>
+        <name>operating_appliances</name>
+        <briefdescription>
+<para>Total number of operating appliances. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="21" column="13" bodyfile="HomePage.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1ad6292cb4ba1a83629e9449a6e00642a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HomePage::total_devices</definition>
+        <argsstring></argsstring>
+        <name>total_devices</name>
+        <briefdescription>
+<para>Total number of devices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="27" column="13" bodyfile="HomePage.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1a12bbda4d3fcf1fe8f26847bb6b3d68f9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HomePage::operating_devices</definition>
+        <argsstring></argsstring>
+        <name>operating_devices</name>
+        <briefdescription>
+<para>Total number of operating devices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="33" column="13" bodyfile="HomePage.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1aa35e598f6a2a1cf61c770ce0ad1ecca2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HomePage::total_lights</definition>
+        <argsstring></argsstring>
+        <name>total_lights</name>
+        <briefdescription>
+<para>Total number of lights. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="39" column="13" bodyfile="HomePage.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1ab829aaf37b029cc266f356d684c6c436" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HomePage::operating_lights</definition>
+        <argsstring></argsstring>
+        <name>operating_lights</name>
+        <briefdescription>
+<para>Total number of operating lights. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="45" column="13" bodyfile="HomePage.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1ae917b04ac25073ab8178fd3da87d91b9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; HomePage::appliances</definition>
+        <argsstring></argsstring>
+        <name>appliances</name>
+        <briefdescription>
+<para>Contains state for appliances. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="51" column="21" bodyfile="HomePage.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1a6de24d8c159eaf498243c122d76da642" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; HomePage::devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <briefdescription>
+<para>Contains state for devices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="57" column="21" bodyfile="HomePage.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1adade18df1932edbdefde992f922ad4e8" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; HomePage::lights</definition>
+        <argsstring></argsstring>
+        <name>lights</name>
+        <briefdescription>
+<para>Contains state for lights. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="63" column="21" bodyfile="HomePage.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1abdfa529a2004885cdad762efa9abcceb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool HomePage::security_mode</definition>
+        <argsstring></argsstring>
+        <name>security_mode</name>
+        <briefdescription>
+<para>Security mode flag. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="69" column="14" bodyfile="HomePage.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1acb392c300930c950bedc7fd8d5e26b8f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool HomePage::auto_light</definition>
+        <argsstring></argsstring>
+        <name>auto_light</name>
+        <briefdescription>
+<para>Auto light mode flag. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="75" column="14" bodyfile="HomePage.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1a7945e2f92f4937e5b8c837f4b9cb5d2c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool HomePage::auto_ac</definition>
+        <argsstring></argsstring>
+        <name>auto_ac</name>
+        <briefdescription>
+<para>Auto AC mode flag. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="81" column="14" bodyfile="HomePage.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1a4646d6aa7cacf4c0a909efd61acd1748" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HomePage::ac_temp</definition>
+        <argsstring></argsstring>
+        <name>ac_temp</name>
+        <briefdescription>
+<para>The AC tempreature. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="87" column="15" bodyfile="HomePage.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1a58e2003bb1ba866f54da237ed233914a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HomePage::actual_temp</definition>
+        <argsstring></argsstring>
+        <name>actual_temp</name>
+        <briefdescription>
+<para>The measured tempreature. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="93" column="15" bodyfile="HomePage.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHomePage_1a18adbabaf0445af0e44fdcbd55584bc0" prot="private" static="no" mutable="no">
+        <type>struct tm</type>
+        <definition>struct tm HomePage::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+<para>The time object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="93" column="15" bodyfile="HomePage.hpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classHomePage_1a354323ed89909a19b40d70aabac25a00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HomePage::get_on</definition>
+        <argsstring>(std::vector&lt; bool &gt; a)</argsstring>
+        <name>get_on</name>
+        <param>
+          <type>std::vector&lt; bool &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Get number of turned on objects for given vector. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="107" column="13" bodyfile="HomePage.hpp" bodystart="107" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1aba7cc2e689eb76cb89f72d0a8f7c035a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::check_on</definition>
+        <argsstring>()</argsstring>
+        <name>check_on</name>
+        <briefdescription>
+<para>Assigns the number of operating peripherals. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="121" column="14" bodyfile="HomePage.hpp" bodystart="121" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHomePage_1a49bf8e72132243658f2f193e8ac2333b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HomePage::HomePage</definition>
+        <argsstring>()</argsstring>
+        <name>HomePage</name>
+        <briefdescription>
+<para>Construct a new Home Page object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="132" column="9" bodyfile="HomePage.hpp" bodystart="132" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1aac014646ba25b63deb054e4ca36ea45d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::reset_devices</definition>
+        <argsstring>()</argsstring>
+        <name>reset_devices</name>
+        <briefdescription>
+<para>Resets devices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="153" column="14" bodyfile="HomePage.hpp" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a08934d1f8c5e2602d0b510c605946e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::reset_appliances</definition>
+        <argsstring>()</argsstring>
+        <name>reset_appliances</name>
+        <briefdescription>
+<para>Resets appliances. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="163" column="14" bodyfile="HomePage.hpp" bodystart="163" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a75d0a19a09f55a6ac3d8e9f5c091da2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::reset_lights</definition>
+        <argsstring>()</argsstring>
+        <name>reset_lights</name>
+        <briefdescription>
+<para>Resets lights. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="173" column="14" bodyfile="HomePage.hpp" bodystart="173" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1aa5dd16f12cb7019c3f8cd4863d172104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::reset_ac</definition>
+        <argsstring>()</argsstring>
+        <name>reset_ac</name>
+        <briefdescription>
+<para>Recets AC value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="183" column="14" bodyfile="HomePage.hpp" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a33dce9b884fc26ccb84df2f529a72ebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_total_appliances</definition>
+        <argsstring>(int n)</argsstring>
+        <name>set_total_appliances</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Set the total appliances. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="192" column="14" bodyfile="HomePage.hpp" bodystart="192" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1ae9a29dd1405a30d1b618d2ebbe878837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_total_devices</definition>
+        <argsstring>(int n)</argsstring>
+        <name>set_total_devices</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Set the total devices. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="201" column="14" bodyfile="HomePage.hpp" bodystart="201" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a565bc925f2886720b2a3a2c4c77d8282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_total_lights</definition>
+        <argsstring>(int n)</argsstring>
+        <name>set_total_lights</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Set the total lights. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="210" column="14" bodyfile="HomePage.hpp" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a9c6380ac785384628ca43ca11db88319" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_auto_light</definition>
+        <argsstring>(bool flag)</argsstring>
+        <name>set_auto_light</name>
+        <param>
+          <type>bool</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Set the auto light flag. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="219" column="14" bodyfile="HomePage.hpp" bodystart="219" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1acc4a77f8cdf6eecff90de34cff58fb05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_security_mode</definition>
+        <argsstring>(bool flag)</argsstring>
+        <name>set_security_mode</name>
+        <param>
+          <type>bool</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Set the security mode flag. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="228" column="14" bodyfile="HomePage.hpp" bodystart="228" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1ac1b312c32fb211d6314290b02cdcb917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_auto_ac</definition>
+        <argsstring>(bool flag)</argsstring>
+        <name>set_auto_ac</name>
+        <param>
+          <type>bool</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Set the auto ac flag. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="237" column="14" bodyfile="HomePage.hpp" bodystart="237" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1ab1afd8d13011a816421e9a837422dd1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_ac_temp</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_ac_temp</name>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Set the ac tempreature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="246" column="14" bodyfile="HomePage.hpp" bodystart="246" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1aefc9caf2ff968e4b55f5bd671689985a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_actual_temp</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_actual_temp</name>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Set the actual tempreature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="256" column="14" bodyfile="HomePage.hpp" bodystart="256" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a543adc05a6b1fd16368ead4c7a80b51d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_time_date</definition>
+        <argsstring>(int hour, int mins, int day, int month, int year)</argsstring>
+        <name>set_time_date</name>
+        <param>
+          <type>int</type>
+          <declname>hour</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mins</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Set the time date object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mins</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="269" column="14" bodyfile="HomePage.hpp" bodystart="269" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a7a2e27135a29faddc89099794c381bd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_time_only</definition>
+        <argsstring>(int hour, int mins)</argsstring>
+        <name>set_time_only</name>
+        <param>
+          <type>int</type>
+          <declname>hour</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mins</declname>
+        </param>
+        <briefdescription>
+<para>Set the time only object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mins</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="285" column="14" bodyfile="HomePage.hpp" bodystart="285" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a9695871b80683973c76db7e06cf6aa3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_date_only</definition>
+        <argsstring>(int day, int month, int year)</argsstring>
+        <name>set_date_only</name>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Set the date only object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="299" column="14" bodyfile="HomePage.hpp" bodystart="299" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1ac5f49b90078066e1f41e2100eab4e2be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_devices</definition>
+        <argsstring>(std::vector&lt; bool &gt; a)</argsstring>
+        <name>set_devices</name>
+        <param>
+          <type>std::vector&lt; bool &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Set the devices object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="311" column="14" bodyfile="HomePage.hpp" bodystart="311" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a08f78c28de84014c1849980932dbf2da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_lights</definition>
+        <argsstring>(std::vector&lt; bool &gt; a)</argsstring>
+        <name>set_lights</name>
+        <param>
+          <type>std::vector&lt; bool &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Set the lights object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="321" column="14" bodyfile="HomePage.hpp" bodystart="321" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a457a7c1d674fbd527289d046b5c1f613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::set_appliances</definition>
+        <argsstring>(std::vector&lt; bool &gt; a)</argsstring>
+        <name>set_appliances</name>
+        <param>
+          <type>std::vector&lt; bool &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Set the appliances object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="331" column="14" bodyfile="HomePage.hpp" bodystart="331" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1ad137356a79dbac212cbc5670ef58062b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HomePage::get_auto_light</definition>
+        <argsstring>()</argsstring>
+        <name>get_auto_light</name>
+        <briefdescription>
+<para>Get the auto light flag. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="342" column="14" bodyfile="HomePage.hpp" bodystart="342" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1aa2290b00b70dd3c11ea8cfc35d3cffea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HomePage::get_security_mode</definition>
+        <argsstring>()</argsstring>
+        <name>get_security_mode</name>
+        <briefdescription>
+<para>Get the security mode flag. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="352" column="14" bodyfile="HomePage.hpp" bodystart="352" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a1168bac6a8c26ac0c0597621ef22a13a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HomePage::get_auto_ac</definition>
+        <argsstring>()</argsstring>
+        <name>get_auto_ac</name>
+        <briefdescription>
+<para>Get the auto ac tempreature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="362" column="14" bodyfile="HomePage.hpp" bodystart="362" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a287df3b09cdaa7459e08f74ce6db2503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HomePage::get_year</definition>
+        <argsstring>()</argsstring>
+        <name>get_year</name>
+        <briefdescription>
+<para>Get the year. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="371" column="13" bodyfile="HomePage.hpp" bodystart="371" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1aa7e04bc1359691dd9094c89fc39c367f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HomePage::get_month</definition>
+        <argsstring>()</argsstring>
+        <name>get_month</name>
+        <briefdescription>
+<para>Get the month. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="380" column="13" bodyfile="HomePage.hpp" bodystart="380" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a143e06cabfdd559db74c48a92095f229" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HomePage::get_day</definition>
+        <argsstring>()</argsstring>
+        <name>get_day</name>
+        <briefdescription>
+<para>Get the day. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="389" column="13" bodyfile="HomePage.hpp" bodystart="389" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a05c968781469bab1f1bbd61d0eb6fb86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HomePage::get_hour</definition>
+        <argsstring>()</argsstring>
+        <name>get_hour</name>
+        <briefdescription>
+<para>Get the hour. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="398" column="13" bodyfile="HomePage.hpp" bodystart="398" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a4c6409b437e8eb8fa552cf2e01702fdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HomePage::get_minute</definition>
+        <argsstring>()</argsstring>
+        <name>get_minute</name>
+        <briefdescription>
+<para>Get the minute. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="407" column="13" bodyfile="HomePage.hpp" bodystart="407" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a2700a6c24aed41511c91fca51f231d64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float HomePage::get_temp</definition>
+        <argsstring>()</argsstring>
+        <name>get_temp</name>
+        <briefdescription>
+<para>Get the actual tempreature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="416" column="15" bodyfile="HomePage.hpp" bodystart="416" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1ae83aa025af6759d2f38eb5ea685cf85e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; HomePage::get_devices</definition>
+        <argsstring>()</argsstring>
+        <name>get_devices</name>
+        <briefdescription>
+<para>Get the devices object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::vector&lt;bool&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="425" column="21" bodyfile="HomePage.hpp" bodystart="425" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a32f27c8339cc47453b2c585abbb41b7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; HomePage::get_lights</definition>
+        <argsstring>()</argsstring>
+        <name>get_lights</name>
+        <briefdescription>
+<para>Get the lights object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::vector&lt;bool&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="434" column="21" bodyfile="HomePage.hpp" bodystart="434" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1aa57c08c93dc646d85da4cb72c94d5015" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; HomePage::get_appliances</definition>
+        <argsstring>()</argsstring>
+        <name>get_appliances</name>
+        <briefdescription>
+<para>Get the appliances object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::vector&lt;bool&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="443" column="21" bodyfile="HomePage.hpp" bodystart="443" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classHomePage_1a9d2335346cbcf219ab087cfdfdfdaa98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HomePage::show_page</definition>
+        <argsstring>(time_t *seconds)</argsstring>
+        <name>show_page</name>
+        <param>
+          <type>time_t *</type>
+          <declname>seconds</declname>
+        </param>
+        <briefdescription>
+<para>Shows the page. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HomePage.hpp" line="452" column="14" bodyfile="HomePage.hpp" bodystart="452" bodyend="526"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Home Page class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>HomePage</label>
+        <link refid="classHomePage"/>
+      </node>
+    </collaborationgraph>
+    <location file="HomePage.hpp" line="8" column="1" bodyfile="HomePage.hpp" bodystart="9" bodyend="528"/>
+    <listofallmembers>
+      <member refid="classHomePage_1a4646d6aa7cacf4c0a909efd61acd1748" prot="private" virt="non-virtual"><scope>HomePage</scope><name>ac_temp</name></member>
+      <member refid="classHomePage_1a58e2003bb1ba866f54da237ed233914a" prot="private" virt="non-virtual"><scope>HomePage</scope><name>actual_temp</name></member>
+      <member refid="classHomePage_1ae917b04ac25073ab8178fd3da87d91b9" prot="private" virt="non-virtual"><scope>HomePage</scope><name>appliances</name></member>
+      <member refid="classHomePage_1a7945e2f92f4937e5b8c837f4b9cb5d2c" prot="private" virt="non-virtual"><scope>HomePage</scope><name>auto_ac</name></member>
+      <member refid="classHomePage_1acb392c300930c950bedc7fd8d5e26b8f" prot="private" virt="non-virtual"><scope>HomePage</scope><name>auto_light</name></member>
+      <member refid="classHomePage_1aba7cc2e689eb76cb89f72d0a8f7c035a" prot="private" virt="non-virtual"><scope>HomePage</scope><name>check_on</name></member>
+      <member refid="classHomePage_1a6de24d8c159eaf498243c122d76da642" prot="private" virt="non-virtual"><scope>HomePage</scope><name>devices</name></member>
+      <member refid="classHomePage_1aa57c08c93dc646d85da4cb72c94d5015" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_appliances</name></member>
+      <member refid="classHomePage_1a1168bac6a8c26ac0c0597621ef22a13a" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_auto_ac</name></member>
+      <member refid="classHomePage_1ad137356a79dbac212cbc5670ef58062b" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_auto_light</name></member>
+      <member refid="classHomePage_1a143e06cabfdd559db74c48a92095f229" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_day</name></member>
+      <member refid="classHomePage_1ae83aa025af6759d2f38eb5ea685cf85e" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_devices</name></member>
+      <member refid="classHomePage_1a05c968781469bab1f1bbd61d0eb6fb86" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_hour</name></member>
+      <member refid="classHomePage_1a32f27c8339cc47453b2c585abbb41b7f" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_lights</name></member>
+      <member refid="classHomePage_1a4c6409b437e8eb8fa552cf2e01702fdb" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_minute</name></member>
+      <member refid="classHomePage_1aa7e04bc1359691dd9094c89fc39c367f" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_month</name></member>
+      <member refid="classHomePage_1a354323ed89909a19b40d70aabac25a00" prot="private" virt="non-virtual"><scope>HomePage</scope><name>get_on</name></member>
+      <member refid="classHomePage_1aa2290b00b70dd3c11ea8cfc35d3cffea" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_security_mode</name></member>
+      <member refid="classHomePage_1a2700a6c24aed41511c91fca51f231d64" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_temp</name></member>
+      <member refid="classHomePage_1a287df3b09cdaa7459e08f74ce6db2503" prot="public" virt="non-virtual"><scope>HomePage</scope><name>get_year</name></member>
+      <member refid="classHomePage_1a49bf8e72132243658f2f193e8ac2333b" prot="public" virt="non-virtual"><scope>HomePage</scope><name>HomePage</name></member>
+      <member refid="classHomePage_1adade18df1932edbdefde992f922ad4e8" prot="private" virt="non-virtual"><scope>HomePage</scope><name>lights</name></member>
+      <member refid="classHomePage_1ad3f27921f726c992a353b257d00ac3c8" prot="private" virt="non-virtual"><scope>HomePage</scope><name>operating_appliances</name></member>
+      <member refid="classHomePage_1a12bbda4d3fcf1fe8f26847bb6b3d68f9" prot="private" virt="non-virtual"><scope>HomePage</scope><name>operating_devices</name></member>
+      <member refid="classHomePage_1ab829aaf37b029cc266f356d684c6c436" prot="private" virt="non-virtual"><scope>HomePage</scope><name>operating_lights</name></member>
+      <member refid="classHomePage_1aa5dd16f12cb7019c3f8cd4863d172104" prot="public" virt="non-virtual"><scope>HomePage</scope><name>reset_ac</name></member>
+      <member refid="classHomePage_1a08934d1f8c5e2602d0b510c605946e66" prot="public" virt="non-virtual"><scope>HomePage</scope><name>reset_appliances</name></member>
+      <member refid="classHomePage_1aac014646ba25b63deb054e4ca36ea45d" prot="public" virt="non-virtual"><scope>HomePage</scope><name>reset_devices</name></member>
+      <member refid="classHomePage_1a75d0a19a09f55a6ac3d8e9f5c091da2e" prot="public" virt="non-virtual"><scope>HomePage</scope><name>reset_lights</name></member>
+      <member refid="classHomePage_1abdfa529a2004885cdad762efa9abcceb" prot="private" virt="non-virtual"><scope>HomePage</scope><name>security_mode</name></member>
+      <member refid="classHomePage_1ab1afd8d13011a816421e9a837422dd1a" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_ac_temp</name></member>
+      <member refid="classHomePage_1aefc9caf2ff968e4b55f5bd671689985a" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_actual_temp</name></member>
+      <member refid="classHomePage_1a457a7c1d674fbd527289d046b5c1f613" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_appliances</name></member>
+      <member refid="classHomePage_1ac1b312c32fb211d6314290b02cdcb917" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_auto_ac</name></member>
+      <member refid="classHomePage_1a9c6380ac785384628ca43ca11db88319" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_auto_light</name></member>
+      <member refid="classHomePage_1a9695871b80683973c76db7e06cf6aa3d" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_date_only</name></member>
+      <member refid="classHomePage_1ac5f49b90078066e1f41e2100eab4e2be" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_devices</name></member>
+      <member refid="classHomePage_1a08f78c28de84014c1849980932dbf2da" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_lights</name></member>
+      <member refid="classHomePage_1acc4a77f8cdf6eecff90de34cff58fb05" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_security_mode</name></member>
+      <member refid="classHomePage_1a543adc05a6b1fd16368ead4c7a80b51d" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_time_date</name></member>
+      <member refid="classHomePage_1a7a2e27135a29faddc89099794c381bd4" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_time_only</name></member>
+      <member refid="classHomePage_1a33dce9b884fc26ccb84df2f529a72ebc" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_total_appliances</name></member>
+      <member refid="classHomePage_1ae9a29dd1405a30d1b618d2ebbe878837" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_total_devices</name></member>
+      <member refid="classHomePage_1a565bc925f2886720b2a3a2c4c77d8282" prot="public" virt="non-virtual"><scope>HomePage</scope><name>set_total_lights</name></member>
+      <member refid="classHomePage_1a9d2335346cbcf219ab087cfdfdfdaa98" prot="public" virt="non-virtual"><scope>HomePage</scope><name>show_page</name></member>
+      <member refid="classHomePage_1a18adbabaf0445af0e44fdcbd55584bc0" prot="private" virt="non-virtual"><scope>HomePage</scope><name>time</name></member>
+      <member refid="classHomePage_1aa828d83fe76aee0e4c1220f83fce8e6d" prot="private" virt="non-virtual"><scope>HomePage</scope><name>total_appliances</name></member>
+      <member refid="classHomePage_1ad6292cb4ba1a83629e9449a6e00642a4" prot="private" virt="non-virtual"><scope>HomePage</scope><name>total_devices</name></member>
+      <member refid="classHomePage_1aa35e598f6a2a1cf61c770ce0ad1ecca2" prot="private" virt="non-virtual"><scope>HomePage</scope><name>total_lights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
